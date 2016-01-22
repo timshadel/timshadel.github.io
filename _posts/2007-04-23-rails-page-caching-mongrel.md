@@ -17,7 +17,7 @@ tags:
 ---
 So you&#8217;ve got a great Rails app. You&#8217;re setting up page caching for those publicly accessible pages shared by everyone. One of your pages is the `:index`. It seems like the caching isn&#8217;t working when you&#8217;re testing it, but the output constantly says:
 
-{% highlight shell %}
+{% highlight sh %}
 Cached page: /tag.html (0.00044)
 {% endhighlight %}
 

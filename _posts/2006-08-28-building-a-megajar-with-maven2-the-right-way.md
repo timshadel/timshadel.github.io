@@ -22,7 +22,7 @@ For one such tool we did lately, we needed only one dependency &#8212; the datab
 
 The command I used was
 
-{% highlight shell %}
+{% highlight sh %}
 mvn assembly:assembly -DdescriptorId=jar-with-dependencies
 {% endhighlight %}
 
@@ -46,7 +46,7 @@ You can find [more information][5] around the web. I found the [Maven2 Assembly 
 
 So that the entire thing can be run with a simple Java command:
 
-{% highlight shell %}
+{% highlight sh %}
 java -jar target/PRJ-12-migrate-start-times-1.0.0-jar-with-dependencies.jar
 {% endhighlight %}
 

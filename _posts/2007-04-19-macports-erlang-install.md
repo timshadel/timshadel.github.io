@@ -8,21 +8,21 @@ categories:
 ---
 So I ran into a funny error today while trying to install `erlang` on my Mac.
 
-{% highlight shell %}
+{% highlight sh %}
 $ sudo port install erlang
 Error: Unable to execute port: invalid command name "configure.cppflags"
 {% endhighlight %}
 
 It turns out (after running `port` using the `-d` option), that macports was trying to upgrade my `gettext` version. The `Portfile` seemed to be trying to set the `CPPFLAGS` option for the `configure` tool. I opened up `/opt/local/var/db/dports/sources/ rsync.rsync.darwinports.org_dpupdate_dports/devel/gettext/Portfile` and replaced:
 
-{% highlight shell %}
+{% highlight sh %}
 configure.cppflags \
     -no-cpp-precomp
 {% endhighlight %}
 
 with this:
 
-{% highlight shell %}
+{% highlight sh %}
 configure.env   CPPFLAGS="-no-cpp-precomp"
 {% endhighlight %}
 

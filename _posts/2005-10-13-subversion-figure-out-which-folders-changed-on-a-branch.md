@@ -12,7 +12,7 @@ tags:
 ---
 Just wanted to jot down a quick Subversion recipe. I&#8217;m doing a merge today, and I wanted to know which of the 25 folders on my branch actually changed. Here&#8217;s what I used to figure it out.
 
-{% highlight shell %}
+{% highlight sh %}
 svn diff -r 4649:HEAD http://myserver/svn/branches/mybranch | grep "Index:" | sed -e "s/Index: ([^\/])\/./\1/" | sort -u
 {% endhighlight %}
 

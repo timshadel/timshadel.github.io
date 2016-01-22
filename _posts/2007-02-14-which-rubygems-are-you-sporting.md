@@ -15,11 +15,11 @@ tags:
 
 So my current list is down below. I imagine it will change soon &#8212; maybe tomorrow.
 
-{% highlight shell %}
+{% highlight sh %}
 $ gem list | grep "^[a-zA-Z]"
 {% endhighlight %}
 
-{% highlight shell %}
+{% highlight sh %}
 actionmailer (1.3.2, 1.3.1, 1.2.5)
 actionpack (1.13.2, 1.13.1, 1.12.5)
 actionwebservice (1.2.2, 1.2.1, 1.1.6)

@@ -38,7 +38,7 @@ to this:
 
 When you turn it on, you might see something like this:
 
-{% highlight shell %}
+{% highlight sh %}
 [main] INFO  com.timshadel.util.LoggingDataSource  - Connection request stack trace, filtered by '^(com.timshadel|com.example).'
         com.example.myapp.model.MyClass.determineSomethingImportant(MyClass.java:770)
         com.example.myapp.model.MyClass.updateStatusString(MyClass.java:674)

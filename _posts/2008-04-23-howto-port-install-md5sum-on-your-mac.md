@@ -24,7 +24,7 @@ Eventually I landed on [Wikipedia&#8217;s md5sum page][2]. Then a flood of vague
 
 So, instead of `sudo port install md5sum`, I&#8217;ve edited my `~/.bash_aliases` file to contain this:
 
-{% highlight shell %}
+{% highlight sh %}
 alias md5sum='man md5'
 {% endhighlight %}
 

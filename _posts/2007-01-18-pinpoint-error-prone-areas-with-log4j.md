@@ -21,7 +21,7 @@ Since before taking over management of this team in July, our app has had some l
 
 Here&#8217;s a little snippet of the JBoss log file, showing some standard log output from Hibernate:
 
-{% highlight shell %}
+{% highlight sh %}
 Jan 18 00:00:59 devserver local6:[00:00:59,182,SettingsFactory] INFO  Query cache factory: org.hibernate.cache.StandardQueryCacheFactory
 Jan 18 00:00:59 devserver local6:[00:00:59,213,SettingsFactory] INFO  Statistics: disabled
 Jan 18 00:00:59 devserver local6:[00:00:59,217,SettingsFactory] INFO  Deleted entity synthetic identifier rollback: disabled
@@ -35,13 +35,13 @@ Jan 18 00:01:02 devserver local6:[00:01:02,323,UpdateTimestampsCache] INFO  star
 
 After a minute or two I formulated this little command-line string to give me a count of the classes that had the most errors:
 
-{% highlight shell %}
+{% highlight sh %}
 grep ERROR jboss.log | sed -e "s/^.,(.)] .*$/\1/" | sort | uniq -c
 {% endhighlight %}
 
 This cuts through the log file, locates only errors, slices out the classname from the log message, sorts the remaining list, and then counts up the number of times each classname appears in the sorted list.
 
-{% highlight shell %}
+{% highlight sh %}
  4 LegacySkimmer
  4 PersistentRef
 21 ProgramStateExclusionDaoImpl

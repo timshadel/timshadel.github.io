@@ -17,13 +17,13 @@ tags:
 ---
 I don&#8217;t know how many years I&#8217;ve used the following command chain to add all my unknown files to Subversion:
 
-{% highlight shell %}
+{% highlight sh %}
 svn st | grep ? | sed -e "s/? *//" | xargs svn add
 {% endhighlight %}
 
 Inevitably I occasionally end up using that string on some directory where I have a space in the pathname, and everything bombs. So I finally got around to adding it to my `~/.bash_aliases` file today, with the additional `-e "s/^(.*)$/\"\1\"/"`. Simple, really (just make sure that something `source`s that file):
 
-{% highlight shell %}
+{% highlight sh %}
 alias svnaddall='svn st | grep ? | sed -e "s/? //" -e "s/^\(.\)$/\"\1\"/" | xargs svn add'
 {% endhighlight %}
 
