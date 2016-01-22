@@ -1,0 +1,29 @@
+---
+title: 'Senior Software Management: High Expectations'
+author: Tim
+layout: post
+permalink: /2006/07/19/senior-software-management-high-expectations/
+categories:
+  - Craftsmanship
+tags:
+  - expectations
+  - management
+  - software development
+---
+I pulled the following essay out of a report my business partner and I did for a client a little bit back. I think it&#8217;s got a wide range of application to numerous business areas. It&#8217;s a list of things I feel are vital to strategic management of IT departments. I&#8217;ve worked in places that lacked such leadership, and also in places that had it and didn&#8217;t know it. I&#8217;ve seen other examples of excellent senior management in the software realm. It sets the bar pretty high, perhaps, but I think that&#8217;s a good thing.
+
+* * *
+
+There is a particularly heavy burden put upon those that manage technical work at the higher levels. Where other executives require detailed knowledge of HR law, GAAP or GASB accounting principles, and financial reporting practices, those who manage software development have a large corpus of historical information to absorb as well as an ever-evolving river of best practices to navigate. Many software development practices have had ample time to be proven, but they still evolve and change as more people have experience with them. Keeping current on these developments is vital to any senior technical manager, just as a senior financial manager must understand the recent changes to accounting practice brought on by Sarbanes-Oxley and the recent rash of corporate fraud.
+
+Experienced senior management knows the level at which technical decisions should be made. When questions are brought into the wrong arenas, they know how to trust the people they manage. They recognize the need for, and establish, a direct and unambiguous technical hierarchy from senior management down through developers, with very solid technical middle management. They recognize that well-paid experienced first-level managers save more money than they cost, and are valuable employees that are vital to the department’s ability to deliver ROI.
+
+Experienced senior technical managers recognize that other departments and organizations may not understand software development. They work from their deep experience in both technology and business to explain the various limitations, expound on what should cause alarm and what shouldn’t, and generally smooth the political waters for the team with other groups. They realize which commitments are based on valid data and estimates, and which aren&#8217;t and courageously negotiate those commitments with other organizations. Their position is unimpeachable because they speak from experience, and from the wisdom that comes by being widely read in the current and historical body of knowledge for software development, and their presentation puts other departments at ease. They understand how far out commitments can reliably be made, the error ranges, and industry and in-house historical accuracy. They make fair commitments.
+
+Senior technical managers that understand software development know how to staff projects at the right times with the right people. They understand that programmers are not interchangeable, and so they don’t rush the hiring process. They recognize that adding programmers to a project never makes up lost time, and that adding too many people to the project will slow it down to a crawl. They’ve read the literature about team size to know that small, dedicated, jelled teams are most productive. They know that it’s worth the cost of small incentives to keep turnover very low. They know that contractors have just as much importance to their project success as full-time employees. They recognize that programmers are not motivated by most HR incentive programs, but have different personal and internal motivations; they’ve read about this in books like Peopleware and Rapid Development. They recognize that parallel development efforts by many teams can sometimes be counterproductive, and takes time and great skill to manage right.
+
+Experienced technical managers know that knowledge work requires quiet, dedicated spaces and long periods of deep concentration – known as flow in psychology. They recognize that their programmers do their best work when they are closely located to their team, but they have the option to close the door and have quiet time to work. They’ve read the research presented in conferences and repeated in books like Code Complete about how poorly developers do in small, cramped, and noisy environments. They use their budgets wisely and know that good work requires good equipment, so they support their team by providing adequate resources.
+
+These software managers know that the best predictor of their organization’s future performance is their past work. The classic essay No Silver Bullet by Fred Brooks and the myriad other publications on software productivity give them a base of knowledge from which to challenge any claim that overall productivity will increase dramatically by using any tool or methodology.
+
+Experienced software managers have worked in the industry long enough that they know the best practices and primary functions of their direct reports, since they were once peers. They recognize good work from poor performance, and know how to interview and hire someone qualified for those positions. They can see organizational problems caused by poor middle management and give knowledgeable advice and direction as needed, and they can recognize when to trust their team. The best senior managers have developed trust down through the ranks with the most junior developers.

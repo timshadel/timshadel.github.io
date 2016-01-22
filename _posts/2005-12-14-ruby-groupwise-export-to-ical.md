@@ -1,0 +1,62 @@
+---
+title: '[Ruby] GroupWise export to iCal'
+author: Tim
+layout: post
+permalink: /2005/12/14/ruby-groupwise-export-to-ical/
+categories:
+  - How-To
+tags:
+  - glue
+  - groupwise
+  - ical
+  - integration
+  - ole
+  - ruby
+  - win32
+---
+**UPDATE:** I&#8217;ve posted a more complete version of this code in [More Ruby Exporting of Groupwise to iCal][1].
+
+I&#8217;ve wanted to export my Groupwise calendar to iCal format for a long time. Every time I try to do it, I ended up running into the [same][2] [few][3] pages. They sorta worked, but were clumsy.
+
+So I threw this little beauty together in under 10 minutes and 2 google searches. It seems to be a start, though I expect to improve it. [Groupwise Object API Docs][4] (PDF format; the web version keeps blinking &#8212; arrrgh) from Novell were useful, as was [this Ruby gem][5].
+
+<pre class="textmate-source railscasts"><span class="source source_ruby"><span class="meta meta_require meta_require_ruby"><span class="keyword keyword_other keyword_other_special-method keyword_other_special-method_ruby">require</span> <span class="string string_quoted string_quoted_single string_quoted_single_ruby"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_ruby">'</span>win32ole<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_ruby">'</span></span></span>
+<span class="meta meta_require meta_require_ruby"><span class="keyword keyword_other keyword_other_special-method keyword_other_special-method_ruby">require</span> <span class="string string_quoted string_quoted_single string_quoted_single_ruby"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_ruby">'</span>icalendar<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_ruby">'</span></span></span></p>
+
+
+
+<p>
+  groupwise <span class="keyword keyword_operator keyword_operator_assignment keyword_operator_assignment_ruby">=</span> <span class="support support_class support_class_ruby">WIN32OLE</span><span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span><span class="keyword keyword_other keyword_other_special-method keyword_other_special-method_ruby">new</span><span class="punctuation punctuation_section punctuation_section_function punctuation_section_function_ruby">(</span><span class="string string_quoted string_quoted_double string_quoted_double_ruby"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_ruby">"</span>NovellGroupWareSession<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_ruby">"</span></span><span class="punctuation punctuation_section punctuation_section_function punctuation_section_function_ruby">)</span>
+  <span class="comment comment_line comment_line_number-sign comment_line_number-sign_ruby"><span class="punctuation punctuation_definition punctuation_definition_comment punctuation_definition_comment_ruby">#</span> 2nd arg is not password, so leave blank
+  </span>account <span class="keyword keyword_operator keyword_operator_assignment keyword_operator_assignment_ruby">=</span> groupwise<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span><span class="variable variable_other variable_other_constant variable_other_constant_ruby">Login</span><span class="punctuation punctuation_section punctuation_section_function punctuation_section_function_ruby">(</span><span class="string string_quoted string_quoted_double string_quoted_double_ruby"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_ruby">"</span>your-username<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_ruby">"</span></span><span class="punctuation punctuation_separator punctuation_separator_object punctuation_separator_object_ruby">,</span> <span class="string string_quoted string_quoted_double string_quoted_double_ruby"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_ruby">"</span><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_ruby">"</span></span><span class="punctuation punctuation_section punctuation_section_function punctuation_section_function_ruby">)</span>
+  path_to_host <span class="keyword keyword_operator keyword_operator_assignment keyword_operator_assignment_ruby">=</span> account<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span><span class="variable variable_other variable_other_constant variable_other_constant_ruby">PathToHost</span>
+  cal <span class="keyword keyword_operator keyword_operator_assignment keyword_operator_assignment_ruby">=</span> <span class="support support_class support_class_ruby">Icalendar</span><span class="punctuation punctuation_separator punctuation_separator_other punctuation_separator_other_ruby">::</span><span class="support support_class support_class_ruby">Calendar</span><span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span><span class="keyword keyword_other keyword_other_special-method keyword_other_special-method_ruby">new</span>
+  account<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span><span class="support support_class support_class_ruby">Calendar</span><span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span><span class="support support_class support_class_ruby">Messages</span><span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>each <span class="keyword keyword_control keyword_control_start-block keyword_control_start-block_ruby">do </span><span class="punctuation punctuation_separator punctuation_separator_variable punctuation_separator_variable_ruby">|</span><span class="variable variable_other variable_other_block variable_other_block_ruby">message</span><span class="punctuation punctuation_separator punctuation_separator_variable punctuation_separator_variable_ruby">|</span>
+    <span class="keyword keyword_control keyword_control_pseudo-method keyword_control_pseudo-method_ruby">next</span> <span class="keyword keyword_control keyword_control_ruby">unless</span> message<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span><span class="variable variable_other variable_other_constant variable_other_constant_ruby">ClassName</span> <span class="keyword keyword_operator keyword_operator_comparison keyword_operator_comparison_ruby">==</span> <span class="string string_quoted string_quoted_double string_quoted_double_ruby"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_ruby">"</span>GW.MESSAGE.APPOINTMENT<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_ruby">"</span></span>
+    event <span class="keyword keyword_operator keyword_operator_assignment keyword_operator_assignment_ruby">=</span> cal<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>event  <span class="comment comment_line comment_line_number-sign comment_line_number-sign_ruby"><span class="punctuation punctuation_definition punctuation_definition_comment punctuation_definition_comment_ruby">#</span> This automatically adds the event to the calendar
+  </span>  event<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>user_id <span class="keyword keyword_operator keyword_operator_assignment keyword_operator_assignment_ruby">=</span> <span class="string string_quoted string_quoted_double string_quoted_double_ruby"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_ruby">"</span>tims@asrs.state.az.us<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_ruby">"</span></span>
+    event<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>timestamp <span class="keyword keyword_operator keyword_operator_assignment keyword_operator_assignment_ruby">=</span> <span class="support support_class support_class_ruby">DateTime</span><span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>now
+    event<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>summary <span class="keyword keyword_operator keyword_operator_assignment keyword_operator_assignment_ruby">=</span> message<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>subject<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span><span class="variable variable_other variable_other_constant variable_other_constant_ruby">PlainText</span>
+    event<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>description <span class="keyword keyword_operator keyword_operator_assignment keyword_operator_assignment_ruby">=</span> message<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span><span class="support support_class support_class_ruby">BodyText</span><span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span><span class="variable variable_other variable_other_constant variable_other_constant_ruby">PlainText</span>
+    event<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>start <span class="keyword keyword_operator keyword_operator_assignment keyword_operator_assignment_ruby">=</span> message<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span><span class="variable variable_other variable_other_constant variable_other_constant_ruby">StartDate</span>
+    event<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>end <span class="keyword keyword_operator keyword_operator_assignment keyword_operator_assignment_ruby">=</span> message<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span><span class="variable variable_other variable_other_constant variable_other_constant_ruby">EndDate</span>
+  <span class="keyword keyword_control keyword_control_ruby">end</span>
+</p>
+
+
+
+<p>
+  puts cal<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>to_ical</span></pre>
+  
+</p>
+
+
+<p>
+  Every day I find more reasons to love using Ruby.  Enjoy!
+</p>
+
+ [1]: http://timshadel.com/2007/01/19/more-ruby-exporting-of-groupwise-to-ical/
+ [2]: http://helpdesk.doit.wisc.edu/page.php?cat=1003&id=2914 "WiscCal - Importing GroupWise Data into My Calendar"
+ [3]: http://www1.umn.edu/umcal/support/GuideBook/Conversion-GW.html "GroupWise to UMCal Conversion"
+ [4]: http://developer.novell.com/ndk/doc/gwobjapi/pdfdoc/gwobjenu/gwobjenu.pdf
+ [5]: http://icalendar.rubyforge.org/ "iCalendar"
