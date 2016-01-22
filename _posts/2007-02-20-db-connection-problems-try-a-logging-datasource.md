@@ -21,59 +21,44 @@ So the other morning I got an itch to start coding while I was waiting for my ca
 
 It&#8217;s a pretty simple concept. I decided to extend Spring&#8217;s [DelegatingDatasourceProxy][2] to make my [LoggingDataSource][3]. Configuration is just as simple as changing this:
 
-<pre class="textmate-source railscasts"><span class="text text_xml"><span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">&lt;</span><span class="entity entity_name entity_name_tag entity_name_tag_namespace entity_name_tag_namespace_xml">jee</span><span class="entity entity_name entity_name_tag entity_name_tag_xml"><span class="punctuation punctuation_separator punctuation_separator_namespace punctuation_separator_namespace_xml">:</span></span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">jndi-lookup</span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_localname entity_other_attribute-name_localname_xml">id</span>=<span class="string string_quoted string_quoted_double string_quoted_double_xml"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_xml">"</span>dataSourceTarget<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_xml">"</span></span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_localname entity_other_attribute-name_localname_xml">jndi-name</span>=<span class="string string_quoted string_quoted_double string_quoted_double_xml"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_xml">"</span>java:/MyJbossDS<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_xml">"</span></span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">/></span></span></span></pre>
+{% highlight xml %}
+<jee:jndi-lookup id="dataSourceTarget" jndi-name="java:/MyJbossDS"/>
+{% endhighlight %}
 
 to this:
 
-<pre class="textmate-source railscasts"><span class="text text_xml"><span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml"><</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">bean</span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_localname entity_other_attribute-name_localname_xml">id</span>=<span class="string string_quoted string_quoted_double string_quoted_double_xml"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_xml">"</span>dataSource<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_xml">"</span></span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_localname entity_other_attribute-name_localname_xml">class</span>=<span class="string string_quoted string_quoted_double string_quoted_double_xml"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_xml">"</span>com.timshadel.util.LoggingDataSource<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_xml">"</span></span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span>
-    <span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml"><</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">property</span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_localname entity_other_attribute-name_localname_xml">name</span>=<span class="string string_quoted string_quoted_double string_quoted_double_xml"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_xml">"</span>targetDataSource<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_xml">"</span></span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_localname entity_other_attribute-name_localname_xml">ref</span>=<span class="string string_quoted string_quoted_double string_quoted_double_xml"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_xml">"</span>dataSourceTarget<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_xml">"</span></span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">/></span></span>
-    <span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml"><</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">property</span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_localname entity_other_attribute-name_localname_xml">name</span>=<span class="string string_quoted string_quoted_double string_quoted_double_xml"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_xml">"</span>filterPattern<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_xml">"</span></span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_localname entity_other_attribute-name_localname_xml">value</span>=<span class="string string_quoted string_quoted_double string_quoted_double_xml"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_xml">"</span>^(com.timshadel|com.example).*<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_xml">"</span></span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">/></span></span>
-<span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml"></</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">bean</span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span></p>
+{% highlight xml %}
+<bean id="dataSource" class="com.timshadel.util.LoggingDataSource">
+    <property name="targetDataSource" ref="dataSourceTarget"/>
+    <property name="filterPattern" value="^(com.timshadel|com.example).*"/>
+</bean>
 
+<jee:jndi-lookup id="dataSourceTarget" jndi-name="java:/MyJbossDS"/>
+{% endhighlight %}
 
+When you turn it on, you might see something like this:
 
-<p>
-  <span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml"><</span><span class="entity entity_name entity_name_tag entity_name_tag_namespace entity_name_tag_namespace_xml">jee</span><span class="entity entity_name entity_name_tag entity_name_tag_xml"><span class="punctuation punctuation_separator punctuation_separator_namespace punctuation_separator_namespace_xml">:</span></span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">jndi-lookup</span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_localname entity_other_attribute-name_localname_xml">id</span>=<span class="string string_quoted string_quoted_double string_quoted_double_xml"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_xml">"</span>dataSourceTarget<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_xml">"</span></span> <span class="entity entity_other entity_other_attribute-name entity_other_attribute-name_localname entity_other_attribute-name_localname_xml">jndi-name</span>=<span class="string string_quoted string_quoted_double string_quoted_double_xml"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_xml">"</span>java:/MyJbossDS<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_xml">"</span></span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">/></span></span></span></pre>
-  
-</p>
-
-
-<p>
-  When you turn it on, you might see something like this:
-</p>
-
-
-<p>
-  <pre class="textmate-source railscasts"><span class="text text_xml">[main] INFO  com.timshadel.util.LoggingDataSource  - Connection request stack trace, filtered by '^(com.timshadel|com.example).<em>'
+{% highlight shell %}
+[main] INFO  com.timshadel.util.LoggingDataSource  - Connection request stack trace, filtered by '^(com.timshadel|com.example).'
         com.example.myapp.model.MyClass.determineSomethingImportant(MyClass.java:770)
         com.example.myapp.model.MyClass.updateStatusString(MyClass.java:674)
         com.example.myapp.model.MyClass.loadStatusInfo(MyClass.java:643)
         com.example.myapp.model.MyClass.reloadStatusInfo(MyClass.java:332)
         com.example.myapp.util.helper.LegacyHelper.run(LegacyHelper.java:440)
-[main] ERROR com.timshadel.util.LoggingDataSource  - Connection request stack trace, filtered by '^(com.timshadel|com.example).</em>'
+[main] ERROR com.timshadel.util.LoggingDataSource  - Connection request stack trace, filtered by '^(com.timshadel|com.example).'
         CAUGHT EXCEPTION (java.sql.SQLException): Pretend there's no more connections.
         com.example.myapp.model.MyClass.determineSomethingImportant(MyClass.java:770)
         com.example.myapp.model.MyClass.updateStatusString(MyClass.java:674)
         com.example.myapp.model.MyClass.loadStatusInfo(MyClass.java:643)
         com.example.myapp.model.MyClass.reloadStatusInfo(MyClass.java:332)
-        com.example.myapp.util.helper.LegacyHelper.run(LegacyHelper.java:440)</span></pre>
-  
-</p>
+        com.example.myapp.util.helper.LegacyHelper.run(LegacyHelper.java:440)
+{% endhighlight %}
 
+All of the stacktrace lines have been removed except those that match your pattern.  This is helpful to make sure you cut through <a href="http://ptrthomas.wordpress.com/2006/06/06/java-call-stack-from-http-upto-jdbc-as-a-picture/">a typical enterprise Java call stack</a> to only show the calls your code is making.  For us that was helpful as a poor man&#8217;s way to determine which pieces of our code were using connections frequently.  One simple run turned up a few hotspots.  If we need to dig in a bit more, perhaps we&#8217;ll throw together a simple Ruby script to count how often a given call stack shows up in the log.
 
-<p>
-  All of the stacktrace lines have been removed except those that match your pattern.  This is helpful to make sure you cut through <a href="http://ptrthomas.wordpress.com/2006/06/06/java-call-stack-from-http-upto-jdbc-as-a-picture/">a typical enterprise Java call stack</a> to only show the calls your code is making.  For us that was helpful as a poor man&#8217;s way to determine which pieces of our code were using connections frequently.  One simple run turned up a few hotspots.  If we need to dig in a bit more, perhaps we&#8217;ll throw together a simple Ruby script to count how often a given call stack shows up in the log.
-</p>
+Also note, that since this puts the info out to Log4j, you can obviously pull this logging out to a completely separate file, set a different threshold, or use any of the other standard Log4j features to capture this information in a way that&#8217;s useful to you.
 
-
-<p>
-  Also note, that since this puts the info out to Log4j, you can obviously pull this logging out to a completely separate file, set a different threshold, or use any of the other standard Log4j features to capture this information in a way that&#8217;s useful to you.
-</p>
-
-
-<p>
-  Finally, please remember that I pulled lots of this together while riding to work.  It&#8217;s not really meant to be used for anything serious.  Please expect warts and problems, but hopefully it&#8217;s enough to help get you goin&#8217;.
-</p>
+Finally, please remember that I pulled lots of this together while riding to work.  It&#8217;s not really meant to be used for anything serious.  Please expect warts and problems, but hopefully it&#8217;s enough to help get you goin&#8217;.
 
  [1]: http://timshadel.com/code/small/logging-datastore/
  [2]: http://static.springframework.org/spring/docs/2.0.x/api/index.html?org/springframework/jdbc/datasource/DelegatingDataSource.html

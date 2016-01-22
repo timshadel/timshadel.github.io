@@ -21,23 +21,28 @@ Since before taking over management of this team in July, our app has had some l
 
 Here&#8217;s a little snippet of the JBoss log file, showing some standard log output from Hibernate:
 
-<pre class="textmate-source railscasts"><span class="text text_plain"><span class="meta meta_paragraph meta_paragraph_text">Jan 18 00:00:59 devserver local6:[00:00:59,182,SettingsFactory] INFO  Query cache factory: org.hibernate.cache.StandardQueryCacheFactory 
-Jan 18 00:00:59 devserver local6:[00:00:59,213,SettingsFactory] INFO  Statistics: disabled 
-Jan 18 00:00:59 devserver local6:[00:00:59,217,SettingsFactory] INFO  Deleted entity synthetic identifier rollback: disabled 
-Jan 18 00:00:59 devserver local6:[00:00:59,221,SettingsFactory] INFO  Default entity-mode: pojo 
-Jan 18 00:00:59 devserver local6:[00:00:59,331,SessionFactoryImpl] INFO  building session factory 
-Jan 18 00:01:00 devserver local6:[00:01:00,509,CacheFactory] WARN  read-only cache configured for mutable class: Address 
-Jan 18 00:01:00 devserver local6:[00:01:00,513,EhCacheProvider] WARN  Could not find configuration [Address]; using defaults. 
-Jan 18 00:01:02 devserver local6:[00:01:02,315,SessionFactoryObjectFactory] INFO  Not binding factory to JNDI, no JNDI name configured 
-Jan 18 00:01:02 devserver local6:[00:01:02,323,UpdateTimestampsCache] INFO  starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache</span></span></pre>
+{% highlight shell %}
+Jan 18 00:00:59 devserver local6:[00:00:59,182,SettingsFactory] INFO  Query cache factory: org.hibernate.cache.StandardQueryCacheFactory
+Jan 18 00:00:59 devserver local6:[00:00:59,213,SettingsFactory] INFO  Statistics: disabled
+Jan 18 00:00:59 devserver local6:[00:00:59,217,SettingsFactory] INFO  Deleted entity synthetic identifier rollback: disabled
+Jan 18 00:00:59 devserver local6:[00:00:59,221,SettingsFactory] INFO  Default entity-mode: pojo
+Jan 18 00:00:59 devserver local6:[00:00:59,331,SessionFactoryImpl] INFO  building session factory
+Jan 18 00:01:00 devserver local6:[00:01:00,509,CacheFactory] WARN  read-only cache configured for mutable class: Address
+Jan 18 00:01:00 devserver local6:[00:01:00,513,EhCacheProvider] WARN  Could not find configuration [Address]; using defaults.
+Jan 18 00:01:02 devserver local6:[00:01:02,315,SessionFactoryObjectFactory] INFO  Not binding factory to JNDI, no JNDI name configured
+Jan 18 00:01:02 devserver local6:[00:01:02,323,UpdateTimestampsCache] INFO  starting update timestamps cache at region: org.hibernate.cache.UpdateTimestampsCache
+{% endhighlight %}
 
 After a minute or two I formulated this little command-line string to give me a count of the classes that had the most errors:
 
-<pre class="textmate-source railscasts"><span class="source source_shell">grep ERROR jboss.log <span class="keyword keyword_operator keyword_operator_pipe keyword_operator_pipe_shell">|</span> sed -e <span class="string string_quoted string_quoted_double string_quoted_double_shell"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_shell">"</span>s/^.<em>,(.</em>)] .*$/\1/<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_shell">"</span></span> <span class="keyword keyword_operator keyword_operator_pipe keyword_operator_pipe_shell">|</span> sort <span class="keyword keyword_operator keyword_operator_pipe keyword_operator_pipe_shell">|</span> uniq -c</span></pre>
+{% highlight shell %}
+grep ERROR jboss.log | sed -e "s/^.,(.)] .*$/\1/" | sort | uniq -c
+{% endhighlight %}
 
 This cuts through the log file, locates only errors, slices out the classname from the log message, sorts the remaining list, and then counts up the number of times each classname appears in the sorted list.
 
-<pre class="textmate-source railscasts"><span class="source source_shell"> 4 LegacySkimmer
+{% highlight shell %}
+ 4 LegacySkimmer
  4 PersistentRef
 21 ProgramStateExclusionDaoImpl
  8 QualifyLeadsDelegate
@@ -45,7 +50,8 @@ This cuts through the log file, locates only errors, slices out the classname fr
  2 SSOLogger
  1 ShowNextLeadAction
  3 [action]
-</span></pre>
+{% endhighlight %}
+
 
 Interpreting these results can be a bit tricky. I take it really informally. This doesn&#8217;t represent the number of bugs in the modules, or even the classes with the most software defects. For me, this is simply a list that shows from among the classes that do log errors, which classes have experienced conditions that trigger those error logs most frequently. For our setup, that usually means that there&#8217;s some data from another system coming in that doesn&#8217;t meet some assumptions. Other causes may include intermittent connection problems to other systems that just get noticed on one part of the code.
 

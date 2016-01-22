@@ -25,41 +25,23 @@ Here&#8217;s a screenshot of how I setup my SRV records over at [eNom][1]:
 
 After that, my simple chat listener worked:
 
-<pre class="textmate-source railscasts"><span class="source source_ruby"><span class="meta meta_require meta_require_ruby"><span class="keyword keyword_other keyword_other_special-method keyword_other_special-method_ruby">require</span> <span class="string string_quoted string_quoted_single string_quoted_single_ruby"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_ruby">'</span>rubygems<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_ruby">'</span></span></span>
-<span class="meta meta_require meta_require_ruby"><span class="keyword keyword_other keyword_other_special-method keyword_other_special-method_ruby">require</span> <span class="string string_quoted string_quoted_single string_quoted_single_ruby"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_ruby">'</span>xmpp4r-simple<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_ruby">'</span></span></span></p>
+{% highlight ruby %}
+require 'rubygems'
+require 'xmpp4r-simple'
 
+im = Jabber::Simple.new("tim@example.com", "secret-password")
+puts im.connected?
+im.accept_subscriptions = true
 
+while true
+  sleep(5) unless im.received_messages?
+  im.received_messages { |msg| puts msg.body if msg.type == :chat }
+end
+{% endhighlight %}
 
-<p>
-  im <span class="keyword keyword_operator keyword_operator_assignment keyword_operator_assignment_ruby">=</span> <span class="support support_class support_class_ruby">Jabber</span><span class="punctuation punctuation_separator punctuation_separator_other punctuation_separator_other_ruby">::</span><span class="support support_class support_class_ruby">Simple</span><span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span><span class="keyword keyword_other keyword_other_special-method keyword_other_special-method_ruby">new</span><span class="punctuation punctuation_section punctuation_section_function punctuation_section_function_ruby">(</span><span class="string string_quoted string_quoted_double string_quoted_double_ruby"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_ruby">"</span>tim@example.com<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_ruby">"</span></span><span class="punctuation punctuation_separator punctuation_separator_object punctuation_separator_object_ruby">,</span> <span class="string string_quoted string_quoted_double string_quoted_double_ruby"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_ruby">"</span>secret-password<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_ruby">"</span></span><span class="punctuation punctuation_section punctuation_section_function punctuation_section_function_ruby">)</span>
-  puts im<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>connected?
-  im<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>accept_subscriptions <span class="keyword keyword_operator keyword_operator_assignment keyword_operator_assignment_ruby">=</span> <span class="constant constant_language constant_language_ruby">true</span>
-</p>
+My little &#8220;bot&#8221; silently accepted new buddy requests, and printed out recent messages every 5 seconds.
 
-
-
-<p>
-  <span class="keyword keyword_control keyword_control_ruby">while</span> <span class="constant constant_language constant_language_ruby">true</span>
-    sleep<span class="punctuation punctuation_section punctuation_section_function punctuation_section_function_ruby">(</span><span class="constant constant_numeric constant_numeric_ruby">5</span><span class="punctuation punctuation_section punctuation_section_function punctuation_section_function_ruby">)</span> <span class="keyword keyword_control keyword_control_ruby">unless</span> im<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>received_messages?
-</p>
-
-
-
-<p>
-  im<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>received_messages <span class="punctuation punctuation_section punctuation_section_scope punctuation_section_scope_ruby">{</span><span class="meta meta_syntax meta_syntax_ruby meta_syntax_ruby_start-block"> </span><span class="punctuation punctuation_separator punctuation_separator_variable punctuation_separator_variable_ruby">|</span><span class="variable variable_other variable_other_block variable_other_block_ruby">msg</span><span class="punctuation punctuation_separator punctuation_separator_variable punctuation_separator_variable_ruby">|</span> puts msg<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>body <span class="keyword keyword_control keyword_control_ruby">if</span> msg<span class="punctuation punctuation_separator punctuation_separator_method punctuation_separator_method_ruby">.</span>type <span class="keyword keyword_operator keyword_operator_comparison keyword_operator_comparison_ruby">==</span> <span class="constant constant_other constant_other_symbol constant_other_symbol_ruby"><span class="punctuation punctuation_definition punctuation_definition_constant punctuation_definition_constant_ruby">:</span>chat</span> <span class="punctuation punctuation_section punctuation_section_scope punctuation_section_scope_ruby">}</span>
-  <span class="keyword keyword_control keyword_control_ruby">end</span></span></pre>
-  
-</p>
-
-
-<p>
-  My little &#8220;bot&#8221; silently accepted new buddy requests, and printed out recent messages every 5 seconds.
-</p>
-
-
-<p>
-  <b>UPDATE:</b> <del>Something&#8217;s amiss here, I think. I&#8217;ll update when I have more details.</del> Guess not.  I tried this out on another domain, and thought that things didn&#8217;t work right.  But I was mistaken.  Everything looks good.
-</p>
+<b>UPDATE:</b> <del>Something&#8217;s amiss here, I think. I&#8217;ll update when I have more details.</del> Guess not.  I tried this out on another domain, and thought that things didn&#8217;t work right.  But I was mistaken.  Everything looks good.
 
  [1]: http://timshadel.com/2007/02/18/standing-up-against-the-sleaze/
  [2]: http://www.google.com/a/

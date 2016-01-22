@@ -14,11 +14,15 @@ Standard *nix tools can be used to create queries that your filesystem can answe
 
 The `find` command lets you locate files that are named in a specific way, and that have certain file attributes. Let&#8217;s look at an example:
 
-<pre class="textmate-source railscasts"><span class="source source_shell">find . -iname SpriNg.xml</span></pre>
+{% highlight shell %}
+find . -iname SpriNg.xml
+{% endhighlight %}
 
 This query searches the current directory, and looks for files with names like: spring.xml, Spring.xml, or sprinG.xml. The `i` in `iname` means that the pattern will use a case-insensitive comparison when matching against existing files. Let&#8217;s try another:
 
-<pre class="textmate-source railscasts"><span class="source source_shell">find . -name proj*.xml -maxdepth 2</span></pre>
+{% highlight shell %}
+find . -name proj*.xml -maxdepth 2
+{% endhighlight %}
 
 This code searches the current directory, and will go down only 2 folders below this one in search of matches. It will look for files named like: projector.xml, project.xml, and proj2.xml. Limiting the depth can greatly speed your search. So can starting at a lower level of the directory structure.
 
@@ -28,11 +32,15 @@ This code searches the current directory, and will go down only 2 folders below 
 
 Now that you&#8217;ve located the set of files under suscpicion, it&#8217;s time to execute your unwarrented search. For example, if you&#8217;re looking for which projects depend on my-shared-code then your query might look something like this:
 
-<pre class="textmate-source railscasts"><span class="source source_shell">find . -name project.xml -maxdepth 2 -exec grep -l my-shared-code {} <span class="keyword keyword_operator keyword_operator_list keyword_operator_list_shell">;</span></span></pre>
+{% highlight shell %}
+find . -name project.xml -maxdepth 2 -exec grep -l my-shared-code {} ;
+{% endhighlight %}
 
 There&#8217;s a lot going on here. The first half of the find command should be fairly familiar. The last half invokes a program for each result found, using the `-exec` parameter. Everything from that point until the semicolon is considered part of the executed command. The `{}`&#8216;s indicate where the filename should be substituted at execution time. So the resulting command runs **as if** it were something like this:
 
-<pre class="textmate-source railscasts"><span class="text text_plain"><span class="meta meta_paragraph meta_paragraph_text">grep -l my-shared-code \work\my-products\myproduct\trunk\myproject\project.xml</span></span></pre>
+{% highlight shell %}
+grep -l my-shared-code \work\my-products\myproduct\trunk\myproject\project.xml
+{% endhighlight %}
 
 The option used in grep is a lowercase `L`. It tells grep to list only the filename whose contents match, and not the line contents that triggered the match.
 

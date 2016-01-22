@@ -22,25 +22,33 @@ For one such tool we did lately, we needed only one dependency &#8212; the datab
 
 The command I used was
 
-<pre class="textmate-source railscasts"><span class="source source_shell">mvn assembly:assembly -DdescriptorId=jar-with-dependencies</span></pre>
+{% highlight shell %}
+mvn assembly:assembly -DdescriptorId=jar-with-dependencies
+{% endhighlight %}
+
 
 You can find [more information][5] around the web. I found the [Maven2 Assembly Plugin docs][6] fairly helpful. I also added this snippet to my `pom.xml`:
 
-<pre class="textmate-source railscasts"><span class="text text_xml"><span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">&lt;</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">plugin</span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span>
-  <span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">&lt;</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">groupId</span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span>org.apache.maven.plugins<span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">&lt;/</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">groupId</span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span>
-  <span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">&lt;</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">artifactId</span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span>maven-assembly-plugin<span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">&lt;/</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">artifactId</span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span>
-  <span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">&lt;</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">configuration</span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span>
-    <span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">&lt;</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">archive</span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span>
-      <span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">&lt;</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">manifest</span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span>
-        <span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">&lt;</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">mainClass</span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span>my.package.to.my.MainClass<span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">&lt;/</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">mainClass</span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span>
-      <span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">&lt;/</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">manifest</span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span>
-    <span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">&lt;/</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">archive</span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span>
-  <span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">&lt;/</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">configuration</span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span>
-<span class="meta meta_tag meta_tag_xml"><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">&lt;/</span><span class="entity entity_name entity_name_tag entity_name_tag_localname entity_name_tag_localname_xml">plugin</span><span class="punctuation punctuation_definition punctuation_definition_tag punctuation_definition_tag_xml">></span></span></span></pre>
+{% highlight xml %}
+<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-assembly-plugin</artifactId>
+  <configuration>
+    <archive>
+      <manifest>
+        <mainClass>my.package.to.my.MainClass</mainClass>
+      </manifest>
+    </archive>
+  </configuration>
+</plugin>
+{% endhighlight %}
+
 
 So that the entire thing can be run with a simple Java command:
 
-<pre class="textmate-source railscasts"><span class="source source_shell">java -jar target/PRJ-12-migrate-start-times-1.0.0-jar-with-dependencies.jar</span></pre>
+{% highlight shell %}
+java -jar target/PRJ-12-migrate-start-times-1.0.0-jar-with-dependencies.jar
+{% endhighlight %}
 
 Got any tips for using the `tools` directory in your project?
 

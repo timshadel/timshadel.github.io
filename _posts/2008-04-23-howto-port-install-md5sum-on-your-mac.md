@@ -24,7 +24,9 @@ Eventually I landed on [Wikipedia&#8217;s md5sum page][2]. Then a flood of vague
 
 So, instead of `sudo port install md5sum`, I&#8217;ve edited my `~/.bash_aliases` file to contain this:
 
-<pre class="textmate-source railscasts"><span class="source source_shell">alias md5sum=<span class="string string_quoted string_quoted_single string_quoted_single_shell"><span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_begin punctuation_definition_string_begin_shell">'</span>man md5<span class="punctuation punctuation_definition punctuation_definition_string punctuation_definition_string_end punctuation_definition_string_end_shell">'</span></span></span></pre>
+{% highlight shell %}
+alias md5sum='man md5'
+{% endhighlight %}
 
 Maybe there really is a fabled `md5sum` for Mac, but this is good enough for me. This will remind the more frozen part of my brain that I really want to type `md5 [filename]` instead. And then I won&#8217;t go a-Googling for it any more. And perhaps, neither will you.
 

@@ -17,7 +17,9 @@ tags:
 ---
 So you&#8217;ve got a great Rails app. You&#8217;re setting up page caching for those publicly accessible pages shared by everyone. One of your pages is the `:index`. It seems like the caching isn&#8217;t working when you&#8217;re testing it, but the output constantly says:
 
-<pre class="textmate-source railscasts"><span class="text text_plain"><span class="meta meta_paragraph meta_paragraph_text">Cached page: /tag.html (0.00044)</span></span></pre>
+{% highlight shell %}
+Cached page: /tag.html (0.00044)
+{% endhighlight %}
 
 What gives? Try seeing if &#8220;/tag&#8221; seems to use the cache, but &#8220;/tag/&#8221; doesn&#8217;t.
 

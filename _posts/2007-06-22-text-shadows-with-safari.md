@@ -26,7 +26,9 @@ From [Word Up! Creating Dynamic Visual Presentations][4]:
 
 And you can see that in the example above. Adding the slight, but dark drop shadow to the white text on the blue color makes it more readable. It&#8217;s a nice touch that makes the UI feel like it has an extra set of *polish*. The CSS is simple enough:
 
-<pre class="textmate-source railscasts"><span class="source source_css"><span class="meta meta_property-list meta_property-list_css"><span class="meta meta_property-name meta_property-name_css"><span class="support support_type support_type_property-name support_type_property-name_css">text-shadow</span></span><span class="meta meta_property-value meta_property-value_css"><span class="punctuation punctuation_separator punctuation_separator_key-value punctuation_separator_key-value_css">:</span> <span class="constant constant_numeric constant_numeric_css">2</span><span class="keyword keyword_other keyword_other_unit keyword_other_unit_css">px</span><span class="constant constant_numeric constant_numeric_css"> 2</span><span class="keyword keyword_other keyword_other_unit keyword_other_unit_css">px</span> <span class="constant constant_other constant_other_color constant_other_color_rgb-value constant_other_color_rgb-value_css"><span class="punctuation punctuation_definition punctuation_definition_constant punctuation_definition_constant_css">#</span>055B98</span><span class="punctuation punctuation_terminator punctuation_terminator_rule punctuation_terminator_rule_css">;</span></span></span></span></pre>
+{% highlight css %}
+text-shadow: 2px 2px #055B98;
+{% endhighlight %}
 
 While most mortals won&#8217;t get to enjoy the effect, you don&#8217;t develop just for mere mortals, do you? Kick your game up a notch.
 
