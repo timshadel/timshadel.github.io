@@ -12,10 +12,10 @@ theme:
 
   # Header and footer text
   header_text: >
-     <p>Thinking out loud, in color.</p>
-  header_text_feature_image:
+     <h2>Thinking out loud, in color.</h2>
+  header_text_feature_image: img/blog-header.jpg
   footer_text: >
-   Powered by <a href="http://jekyllrb.com">Jekyll</a> with <a href="https://rohanchandra.github.io/project/type/">Type Theme</a>
+     <p></p>
 
   # Icons
   rss: false
