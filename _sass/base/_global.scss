@@ -45,8 +45,11 @@ h4 {
   font-size: 1.15em;
 }
 blockquote {
-    border-left: 2px solid;
-    padding: 1em 1em;
+    font-weight: 300;
+    font-family: Merriweather;
+    font-style: italic;
+    font-size: 28px;
+    padding: 1em 1em 1em 3em;
 }
 blockquote p:last-child,
 footer p:last-child {
@@ -83,8 +86,11 @@ dd {
     margin-left: 2em;
 }
 p, ol, ul, dl, .math-display {
-  line-height: 1.5;
+  line-height: 1.68;
   margin-bottom: 1em;
+}
+blockquote p {
+  line-height: 1.5;
 }
 .math-display {
   display: inline-block;
