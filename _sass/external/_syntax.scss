@@ -13,7 +13,7 @@ cyan      #2aa198  strings, numbers
 green     #859900  operators, other keywords
 */
 
-.highlight { background-color: #fdf6e3; color: #586e75 }
+.highlight { background-color: #fdf6e3; color: #586e75; border-radius: 0.3em }
 .highlight pre { padding: 1em }
 .highlight code { font-family: Inconsolata, monospace }
 .highlight .c { color: #93a1a1 } /* Comment */

@@ -79,7 +79,6 @@ th {
 }
 table,
 dl,
-code,
 kbd,
 pre,
 samp {
@@ -105,6 +104,9 @@ p code {
   background-color: #eaeaea;
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
+}
+pre code {
+  display: inline-block;
 }
 blockquote.pullQuote p {
   line-height: 1.5;
