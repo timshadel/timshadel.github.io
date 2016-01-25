@@ -28,12 +28,12 @@ For starters, the design process is sufficiently opaque to obscure the reasoning
 
 One piece of the puzzle is to understand the design process more in depth. Jon&#8217;s been the major proponent of screencasts for a long time. He&#8217;s said in his article [Screencasting of tacit knowledge][2]:
 
-> One of the things that I&#8217;ve known tacitly, but never articulated, is that screencasting can be an excellent way to transmit tacit knowledge.
+<blockquote class="pullQuote">One of the things that I&#8217;ve known tacitly, but never articulated, is that screencasting can be an excellent way to transmit tacit knowledge.</blockquote>
 
 But one of the challenges is transmitting the kind of tacit knowledge involved in CSS design work is that it takes place over a long period of time &#8212; *way* to long to merit a screencast. I recently stumbled across another form of transmitting that kind of tacit knowledge, though. It seems like the time-lapse cousin to the screencast. [Dylan Bennett created][3] what he calls a *designline*:
 
 > To create this designline, I took a screenshot basically every time I saved my HTML file. I&#8217;m one of those people who impulsively hits Ctrl-S after every tiny little change, so you end up seeing every little change made to the file as it goes. I started out with a blank text file and I go all the way to a completed site design. Check it out.
-> 
+>
 > ![Time-lapse evolution of a web site design][4]
 
 While CSS has a declarative format, as Jon mentions above, to me it also has the feel of an aspect-oriented language in that a single declaration may cut across a multitude of unrelated elements. One single element may have [multiple CSS classes][5] associated with it.
