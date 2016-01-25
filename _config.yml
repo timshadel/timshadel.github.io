@@ -15,7 +15,7 @@ theme:
      <h2>Thinking out loud, in color.</h2>
   header_text_feature_image: img/blog-header.jpg
   footer_text: >
-     <p></p>
+     <p>Find an error? File an <a href="https://github.com/timshadel/timshadel.github.io/issues/">issue</a> or open a <a href="https://github.com/timshadel/timshadel.github.io/tree/master/_posts">PR</a>.</p>
 
   # Icons
   rss: false
