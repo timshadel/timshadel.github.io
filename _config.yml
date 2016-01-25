@@ -48,13 +48,13 @@ theme:
   str_follow_on: "Follow on"
   str_rss_follow: "Follow RSS feed"
   str_email: "Email"
-  str_next: "Next"
-  str_prev: "Prev"
+  str_next: "Newer"
+  str_prev: "Older"
   str_continue_reading: "Continue reading"
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
-  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic|Inconsolata:400,700|Merriweather:300italic"
+  google_fonts: "Source+Sans+Pro:400,700,700italic,400italic|Inconsolata:400,700|Merriweather:300,400,700,300italic,400italic,700italic"
 
   # Post navigation
   post_navigation: false

@@ -22,6 +22,7 @@ body {
   color: $text-color;
   font-family: $font-family-main;
   font-size: $font-size;
+  font-weight: $font-weight;
   word-wrap: break-word;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -45,11 +46,17 @@ h4 {
   font-size: 1.15em;
 }
 blockquote {
-    font-weight: 300;
-    font-family: Merriweather;
+    font-style: italic;
+    padding: 0 20px;
+    margin: 2em 0 2em -23px; /* 20 for padding, 3 for border */
+    border-left: 3px solid black;
+}
+blockquote.pullQuote {
     font-style: italic;
     font-size: 28px;
     padding: 1em 1em 1em 3em;
+    margin: 1em 0;
+    border: none;
 }
 blockquote p:last-child,
 footer p:last-child {
@@ -72,12 +79,17 @@ th {
 }
 table,
 dl,
-blockquote,
 code,
 kbd,
 pre,
 samp {
   margin: 1em 0;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: Inconsolata, monospace;
 }
 dt {
   font-weight: bold;
@@ -89,7 +101,12 @@ p, ol, ul, dl, .math-display {
   line-height: 1.68;
   margin-bottom: 1em;
 }
-blockquote p {
+p code {
+  background-color: #eaeaea;
+  padding: 0.2em 0.3em;
+  border-radius: 0.3em;
+}
+blockquote.pullQuote p {
   line-height: 1.5;
 }
 .math-display {
