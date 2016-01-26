@@ -1,6 +1,15 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://timshadel.github.io" # the base hostname & protocol for your site
+url: "https://timshadel.com" # the base hostname & protocol for your site
+title: Zdot
+subtitle: Thinking out loud, in color.
+description: A blog and podcast about technology and family.
+
+
+# PLUGINS
+gems:
+  - jekyll-sitemap
+
 
 # THEME-SPECIFIC CONFIGURATION
 theme:
@@ -59,6 +68,7 @@ theme:
   # Post navigation
   post_navigation: false
 
+
 # PAGINATION
 paginate: 5
 paginate_path: "blog/page:num"
@@ -66,9 +76,22 @@ paginate_path: "blog/page:num"
 permalink: "none"
 excerpt_separator: "<!--more-->"
 
+
+# PODCAST: Used to generate the iTunes-compatible RSS feed
+podcast:
+  owner:
+    name: Tim Shadel
+    email: timshadel@gmail.com
+  explicit: "no" # Change to yes if you're a potty mouth
+  image: /img/generic-2000.png # iTunes requires 2,000 pixel art
+  keywords: "java,ruby,ios,swift"
+  categories:
+    - category: "Technology"
+
+
 # BUILD SETTINGS
 markdown: kramdown
-highlighter: pygments
+highlighter: pygmentize
 sass:
   sass_dir: _sass
   style: :compressed
