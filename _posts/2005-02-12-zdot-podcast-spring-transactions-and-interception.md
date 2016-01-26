@@ -6,13 +6,13 @@ permalink: /2005/02/12/zdot-podcast-spring-transactions-and-interception/
 enclosure:
   - |
     |
-        http://timshadel.com/podcasts/20050212-SpringAndTransactions.mp3
+        http://ia600400.us.archive.org/2/items/zdotpodcast/20050212-SpringAndTransactions.mp3
         16867817
         audio/mpeg
-        
-        
+
+
 categories:
-  - '*-casts'
+  - podcast
 tags:
   - aop
   - interception
@@ -25,11 +25,11 @@ Spring&#8217;s support for declarative transactions and it&#8217;s interception 
 
 #### Show Notes
 
-[Using Spring Transactions with Hibernate][2]  
-The [Spring Live Book][3] Sample, Chapter 2, covers declarative transactions with Spring.  
+[Using Spring Transactions with Hibernate][2]
+The [Spring Live Book][3] Sample, Chapter 2, covers declarative transactions with Spring.
 The [AspectJ Project][4] hosted by Eclipse.
 
- [1]: http://timshadel.com/podcasts/20050212-SpringAndTransactions.mp3
+ [1]: http://ia600400.us.archive.org/2/items/zdotpodcast/20050212-SpringAndTransactions.mp3
  [2]: http://www.hibernate.org/110.html
  [3]: http://springlive.com/
  [4]: http://www.eclipse.org/aspectj/

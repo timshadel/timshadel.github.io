@@ -6,14 +6,14 @@ permalink: /2005/10/20/ruby-infiltration/
 enclosure:
   - |
     |
-        http://timshadel.com/podcasts/Zdot-20051020-RubyInfiltration.mp3
+        http://ia600400.us.archive.org/2/items/zdotpodcast/Zdot-20051020-RubyInfiltration.mp3
         14822707
         audio/mpeg
-        
+
 project:
   - Fixing audio quality
 categories:
-  - '*-casts'
+  - podcast
 tags:
   - maven
   - rails
@@ -35,4 +35,4 @@ Listen now with the Flash player.
  [4]: http://rubyonrails.com/
  [5]: http://pragmaticprogrammer.com/titles/ruby/index.html
  [6]: http://pragmaticprogrammer.com/titles/rails/index.html
- [7]: http://timshadel.com/podcasts/Zdot-20051020-RubyInfiltration.mp3
+ [7]: http://ia600400.us.archive.org/2/items/zdotpodcast/Zdot-20051020-RubyInfiltration.mp3

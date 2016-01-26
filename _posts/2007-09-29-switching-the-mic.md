@@ -6,7 +6,7 @@ permalink: /2007/09/29/switching-the-mic/
 categories:
   - Impressions
 tags:
-  - '*-casts'
+  - podcast
   - audio
   - kids
   - Life

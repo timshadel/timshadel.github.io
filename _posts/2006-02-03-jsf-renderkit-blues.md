@@ -6,12 +6,12 @@ permalink: /2006/02/03/jsf-renderkit-blues/
 enclosure:
   - |
     |
-        http://timshadel.com/podcasts/Zdot-20060203-JsfPart3.mp3
+        http://ia600400.us.archive.org/2/items/zdotpodcast/Zdot-20060203-JsfPart3.mp3
         14720566
         audio/mpeg
-        
+
 categories:
-  - '*-casts'
+  - podcast
 tags:
   - accessibility
   - html
@@ -21,9 +21,9 @@ tags:
 ---
 This is the final part of my three-part series on why JSF isn&#8217;t my personal choice for future development work. I focus on the woes of the doing HTML interfaces in JSF.
 
-<a href="http://timshadel.com/podcasts/Zdot-20060203-JsfPart3.mp3" onClick="javascript:urchinTracker ('/podcasts/Zdot-20060203-JsfPart3.mp3'); "><img src="http://timshadel.com/wp-content/uploads/2006/02/podcast-logo.gif" /></a>
+<a href="http://ia600400.us.archive.org/2/items/zdotpodcast/Zdot-20060203-JsfPart3.mp3" onClick="javascript:urchinTracker ('/podcasts/Zdot-20060203-JsfPart3.mp3'); "><img src="http://timshadel.com/wp-content/uploads/2006/02/podcast-logo.gif" /></a>
 
-Download <a href="http://timshadel.com/podcasts/Zdot-20060203-JsfPart3.mp3" onClick="javascript:urchinTracker ('/podcasts/Zdot-20060203-JsfPart3.mp3'); ">JSF Part 3</a>.
+Download <a href="http://ia600400.us.archive.org/2/items/zdotpodcast/Zdot-20060203-JsfPart3.mp3" onClick="javascript:urchinTracker ('/podcasts/Zdot-20060203-JsfPart3.mp3'); ">JSF Part 3</a>.
 
 The major problems I speak to:
 

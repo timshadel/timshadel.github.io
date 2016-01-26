@@ -6,12 +6,12 @@ permalink: /2006/01/24/jsf-leaky-abstractions-grab-a-mop/
 enclosure:
   - |
     |
-        http://timshadel.com/podcasts/Zdot-20060124-JsfPart2.mp3
+        http://ia600400.us.archive.org/2/items/zdotpodcast/Zdot-20060124-JsfPart2.mp3
         17670103
         audio/mpeg
-        
+
 categories:
-  - '*-casts'
+  - podcast
 tags:
   - java
   - jsf
@@ -19,9 +19,9 @@ tags:
 ---
 In part two of my series of podcasts on why I&#8217;m not interested in using JSF in the future, I focus on the Leaky Abstraction that it provides. I feel like the leaks get in the way of getting actual work done; they confuse new developers, and cause headaches for everyone. Users even see the results of the leaking.
 
-<a href="http://timshadel.com/podcasts/Zdot-20060124-JsfPart2.mp3" onClick="javascript:urchinTracker ('/podcasts/Zdot-20060124-JsfPart2.mp3'); "><img src="http://timshadel.com/wp-content/uploads/2006/01/podcast-logo.gif" /></a>
+<a href="http://ia600400.us.archive.org/2/items/zdotpodcast/Zdot-20060124-JsfPart2.mp3" onClick="javascript:urchinTracker ('/podcasts/Zdot-20060124-JsfPart2.mp3'); "><img src="http://timshadel.com/wp-content/uploads/2006/01/podcast-logo.gif" /></a>
 
-Download <a href="http://timshadel.com/podcasts/Zdot-20060124-JsfPart2.mp3" onClick="javascript:urchinTracker ('/podcasts/Zdot-20060124-JsfPart2.mp3'); ">JSF Part 2</a>.
+Download <a href="http://ia600400.us.archive.org/2/items/zdotpodcast/Zdot-20060124-JsfPart2.mp3" onClick="javascript:urchinTracker ('/podcasts/Zdot-20060124-JsfPart2.mp3'); ">JSF Part 2</a>.
 
 Some of the leaks I discuss include:
 

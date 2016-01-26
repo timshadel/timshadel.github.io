@@ -6,12 +6,12 @@ permalink: /2006/01/19/jsf-the-7-layer-burrito-i-wont-eat-again/
 enclosure:
   - |
     |
-        http://timshadel.com/podcasts/Zdot-20060119-JsfPart1.mp3
+        http://ia600400.us.archive.org/2/items/zdotpodcast/Zdot-20060119-JsfPart1.mp3
         18354721
         audio/mpeg
-        
+
 categories:
-  - '*-casts'
+  - podcast
 tags:
   - bad choices
   - java
@@ -24,7 +24,7 @@ In this podcast, I stick close to our experiences with JSF as a team, and my opi
 
 If you&#8217;re looking for information on the REST architecture I talked about in the podcast, you can get the [short version from a third party][3], or the [original dissertation from Roy Fielding][4].
 
-Download <a href="http://timshadel.com/podcasts/Zdot-20060119-JsfPart1.mp3" onClick="javascript:urchinTracker ('/podcasts/Zdot-20060119-JsfPart1.mp3'); ">JSF Part 1</a>.
+Download <a href="http://ia600400.us.archive.org/2/items/zdotpodcast/Zdot-20060119-JsfPart1.mp3" onClick="javascript:urchinTracker ('/podcasts/Zdot-20060119-JsfPart1.mp3'); ">JSF Part 1</a>.
 
 **UPDATE:** This page has been read more than twice my average (though the number of podcast downloads are still normal &#8212; is anyone new actually listening?). In anticipation of more podcast episodes to come, I&#8217;ve [posted a more complete list][5] of the things that made be decide I&#8217;d like to avoid JSF in the future.
 

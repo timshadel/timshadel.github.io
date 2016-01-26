@@ -6,13 +6,13 @@ permalink: /2005/02/14/zdot-podcast-peer-review-techniques/
 enclosure:
   - |
     |
-        http://timshadel.com/podcasts/20050214-PeerReviewOverview.mp3
+        http://ia600400.us.archive.org/2/items/zdotpodcast/20050214-PeerReviewOverview.mp3
         20708017
         audio/mpeg
-        
-        
+
+
 categories:
-  - '*-casts'
+  - podcast
 tags:
   - qa
   - Reviews
@@ -36,7 +36,7 @@ Today&#8217;s podcast brushes over several techniques described by Karl Wiegers 
 
 There were two major sources for this podcast. First is the article [When Two Eyes Aren&#8217;t Enough][2], by Karl Wiegers and available from his website, [processimpact.com][3]. The second was Chapter 21 of Steve McConnell&#8217;s second edition of [Code Complete][4].
 
- [1]: http://timshadel.com/podcasts/20050214-PeerReviewOverview.mp3
+ [1]: http://ia600400.us.archive.org/2/items/zdotpodcast/20050214-PeerReviewOverview.mp3
  [2]: http://www.processimpact.com/articles/two_eyes.pdf
  [3]: http://www.processimpact.com/
  [4]: http://amazon.com/o/ASIN/0735619670/timshadel-com

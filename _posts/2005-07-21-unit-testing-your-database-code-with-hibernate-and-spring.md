@@ -6,12 +6,12 @@ permalink: /2005/07/21/unit-testing-your-database-code-with-hibernate-and-spring
 enclosure:
   - |
     |
-        http://timshadel.com/podcasts/Zdot-20050721-UnitTestingDatabaseCode.mp3
+        http://ia600400.us.archive.org/2/items/zdotpodcast/Zdot-20050721-UnitTestingDatabaseCode.mp3
         24858506
         audio/mpeg
-        
+
 categories:
-  - '*-casts'
+  - podcast
 tags:
   - dbunit
   - hibernate
@@ -23,15 +23,15 @@ You&#8217;ve got database code that uses both [Hibernate][1] and [Spring][2]. Yo
 
 Check out some great references on database testing, including the ones I mentioned in this show.
 
-[DBUnit][3] and thier [best practices for database testing][4].  
-The [HSQLDB home page][5].  
-Scott Ambler&#8217;s excellent discussion of [database refactoring][6].  
-An article from TheServerSide.com about [unit testing with HSQLDB][7].  
+[DBUnit][3] and thier [best practices for database testing][4].
+The [HSQLDB home page][5].
+Scott Ambler&#8217;s excellent discussion of [database refactoring][6].
+An article from TheServerSide.com about [unit testing with HSQLDB][7].
 Spring&#8217;s [AbstractTransactionalDataSourceSpringContextTests][8] class that helps make some of your database testing easier. Check the other classes in the hierarchy for specifics on what they do as well.
 
 I decided to try out adding a GarageBand.com song today, like the [SlashdotReview][9] podcast does. The song is [Calendar][10] by [Eugenia and The Boys][11]. Let me know if you like it. Also feel free to revolt and tell me to pull the music and keep it to tech stuff. <img src="http://timshadel.com/wp-includes/images/smilies/icon_smile.gif" alt=":-)" class="wp-smiley" />
 
-Listen now with the Flash player.  
+Listen now with the Flash player.
 
 
 Download [Unit Testing Database Code][12].
@@ -47,4 +47,4 @@ Download [Unit Testing Database Code][12].
  [9]: http://slashdotreview.com/
  [10]: http://www.garageband.com/artist/eugeniaandtheboys
  [11]: http://www.eugeniaandtheboys.com/
- [12]: http://timshadel.com/podcasts/Zdot-20050721-UnitTestingDatabaseCode.mp3
+ [12]: http://ia600400.us.archive.org/2/items/zdotpodcast/Zdot-20050721-UnitTestingDatabaseCode.mp3
