@@ -1,12 +1,8 @@
 ---
 title: Super Quick Archiving with Mail.app on OS X Lion
 author: Tim
-excerpt:
-  - With this tip, I can fly through my Inbox deleting and archiving as fast as possible, leaving behind only the emails that I really have to think about and extract meaning from.<p/>
 layout: post
 permalink: /2011/08/27/super-quick-archiving-with-mail-app-on-os-x-lion/
-keyword_custom:
-  - 'a:2:{s:8:"Mail.app";a:8:{s:3:"url";s:20:"http://hawkwings.net";s:5:"times";s:1:"1";s:7:"between";s:0:"";s:6:"before";s:0:"";s:5:"after";s:0:"";s:4:"case";s:1:"1";s:8:"nofollow";s:0:"";s:9:"newwindow";s:0:"";}s:13:"keywords_time";s:10:"1314482685";}'
 categories:
   - Featured
   - How-To
