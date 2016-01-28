@@ -3,6 +3,7 @@ title: An iOS Architecture
 author: Tim
 layout: post
 feature-img: img/feature/architecture.jpg
+feature-attrib: flickr/barnyz
 categories:
   - Craftsmanship
 tags:

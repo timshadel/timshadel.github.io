@@ -8,6 +8,9 @@ layout: default
     {{ page.date | date: "%B %-d, %Y" }}
     {% if page.author %} - {{ page.author }}{% endif %}
     </p>
+    {% if page.feature-attrib %}
+    <cite>Photo credit: {{page.feature-attrib}}</cite>
+    {% endif %}
   </header>
   <section class="post-content">{{ content }}</section>
 </article>
