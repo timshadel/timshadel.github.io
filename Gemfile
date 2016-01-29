@@ -6,6 +6,7 @@ group :jekyll_plugins do
 end
 
 gem 'jekyll-paginate'
+gem 'jekyll-redirect-from'
 gem 'jekyll-sitemap'
 gem 'jekyll-watch'
 gem 'kramdown'

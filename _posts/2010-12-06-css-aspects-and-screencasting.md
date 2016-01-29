@@ -2,7 +2,7 @@
 title: CSS, Aspects, and Screencasting
 author: Tim
 layout: post
-permalink: /2010/12/06/css-aspects-and-screencasting/
+redirect_from: /2010/12/06/css-aspects-and-screencasting/
 categories:
   - Leftovers
 ---
