@@ -3,8 +3,7 @@ title: 'Selenium IDE: Super Easy Acceptance Tests'
 author: Tim
 layout: post
 redirect_from: /2006/02/24/selenium-ide-super-easy-acceptance-tests/
-categories:
-  - How-To
+category:  How-To
 tags:
   - firefox
   - screencasts

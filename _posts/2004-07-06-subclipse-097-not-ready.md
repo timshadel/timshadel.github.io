@@ -3,8 +3,7 @@ title: '[Subclipse] 0.9.7 &#8211; Not ready'
 author: Tim
 layout: post
 redirect_from: /2004/07/06/subclipse-097-not-ready/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - eclipse
   - subclipse

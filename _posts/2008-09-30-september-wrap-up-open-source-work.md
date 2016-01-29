@@ -3,8 +3,7 @@ title: 'September Wrap-Up: Open Source Work!'
 author: Tim
 layout: post
 redirect_from: /2008/09/30/september-wrap-up-open-source-work/
-categories:
-  - News
+category:  News
 tags:
   - git
   - github

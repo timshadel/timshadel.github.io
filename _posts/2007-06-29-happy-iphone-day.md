@@ -3,8 +3,7 @@ title: Happy iPhone Day!
 author: Tim
 layout: post
 redirect_from: /2007/06/29/happy-iphone-day/
-categories:
-  - News
+category:  News
 tags:
   - apple
   - fun

@@ -3,8 +3,7 @@ title: '[Spring] You create nothing.  All is given to you.'
 author: Tim
 layout: post
 redirect_from: /2004/09/01/spring-you-create-nothing-all-is-given-to-you/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - hivemind
   - ioc

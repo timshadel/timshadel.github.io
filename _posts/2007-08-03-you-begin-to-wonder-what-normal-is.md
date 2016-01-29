@@ -3,8 +3,7 @@ title: 'You begin to wonder what normal is&#8230;'
 author: Tim
 layout: post
 redirect_from: /2007/08/03/you-begin-to-wonder-what-normal-is/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - email
   - enterprisey

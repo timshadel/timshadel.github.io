@@ -3,8 +3,7 @@ title: 'Nothin&#8217; to wear? Try CodeSmack.'
 author: Tim
 layout: post
 redirect_from: /2007/05/08/nothin-to-wear-try-codesmack/
-categories:
-  - News
+category:  News
 tags:
   - build
   - codesmack

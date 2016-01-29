@@ -3,8 +3,7 @@ title: GMail makes spam useful
 author: Tim
 layout: post
 redirect_from: /2004/08/04/gmail-makes-spam-useful/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - gmail
   - spam

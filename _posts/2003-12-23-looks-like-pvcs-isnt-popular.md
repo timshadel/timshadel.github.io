@@ -3,8 +3,7 @@ title: 'Looks Like PVCS Isn&#8217;t Popular'
 author: Tim
 layout: post
 redirect_from: /2003/12/23/looks-like-pvcs-isnt-popular/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - pvcs
   - version control

@@ -3,8 +3,7 @@ title: '[Pebble] Portable, ubiquitous blogging'
 author: Tim
 layout: post
 redirect_from: /2004/06/30/pebble-portable-ubiquitous-blogging/
-categories:
-  - News
+category:  News
 tags:
   - blogging
   - blosxom

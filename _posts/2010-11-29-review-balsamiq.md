@@ -3,8 +3,7 @@ title: 'Review: Balsamiq'
 author: Tim
 layout: post
 redirect_from: /2010/11/29/review-balsamiq/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - balsamiq
   - communicate

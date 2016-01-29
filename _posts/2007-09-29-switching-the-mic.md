@@ -3,8 +3,7 @@ title: Switching the Mic
 author: Tim
 layout: post
 redirect_from: /2007/09/29/switching-the-mic/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - podcast
   - audio

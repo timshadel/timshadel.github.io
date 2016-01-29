@@ -3,8 +3,7 @@ title: '[Ruby] GroupWise export to iCal'
 author: Tim
 layout: post
 redirect_from: /2005/12/14/ruby-groupwise-export-to-ical/
-categories:
-  - How-To
+category:  How-To
 tags:
   - glue
   - groupwise

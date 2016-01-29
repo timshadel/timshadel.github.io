@@ -3,8 +3,7 @@ title: 'Grand Canyon Skywalk :: Bad Idea'
 author: Tim
 layout: post
 redirect_from: /2007/04/10/grand-canyon-skywalk-bad-idea/
-categories:
-  - Leftovers
+category:  Leftovers
 ---
 [Grand Canyon Skywalk :: Hicks-Wright.net][1]
 

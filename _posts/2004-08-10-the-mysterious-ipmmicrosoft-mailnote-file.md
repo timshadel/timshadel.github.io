@@ -3,8 +3,7 @@ title: 'The Mysterious &#8220;IPM.Microsoft Mail.Note&#8221; File'
 author: Tim
 layout: post
 redirect_from: /2004/08/10/the-mysterious-ipmmicrosoft-mailnote-file/
-categories:
-  - Perplexed
+category:  Perplexed
 tags:
   - google
   - microsoft

@@ -3,8 +3,7 @@ title: The Best Way to Install Hudson on Mac OS X
 author: Tim
 layout: post
 redirect_from: /2010/12/27/the-best-way-to-install-hudson-on-mac-os-x/
-categories:
-  - How-To
+category:  How-To
 tags:
   - build
   - ci

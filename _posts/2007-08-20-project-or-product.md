@@ -3,8 +3,7 @@ title: Project or Product?
 author: Tim
 layout: post
 redirect_from: /2007/08/20/project-or-product/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 ---
 Jim Shore&#8217;s recently made some observations about *projects* and *products*, [James Shore: Successful Software][1].
 

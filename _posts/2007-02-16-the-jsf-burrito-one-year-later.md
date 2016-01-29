@@ -3,8 +3,7 @@ title: The JSF Burrito, One Year Later
 author: Tim
 layout: post
 redirect_from: /2007/02/16/the-jsf-burrito-one-year-later/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - ajax
   - burrito

@@ -3,8 +3,7 @@ title: 'Finally! Blog software&#8217;s up.'
 author: Tim
 layout: post
 redirect_from: /2004/08/06/finally-blog-softwares-up/
-categories:
-  - News
+category:  News
 tags:
   - blogger
   - moveabletype

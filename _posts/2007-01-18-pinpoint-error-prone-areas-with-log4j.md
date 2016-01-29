@@ -3,8 +3,7 @@ title: Pinpoint error prone areas with log4j
 author: Tim
 layout: post
 redirect_from: /2007/01/18/pinpoint-error-prone-areas-with-log4j/
-categories:
-  - How-To
+category:  How-To
 tags:
   - chainsaw
   - error

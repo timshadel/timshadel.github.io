@@ -3,8 +3,7 @@ title: DB connection problems? Try a logging datasource!
 author: Tim
 layout: post
 redirect_from: /2007/02/20/db-connection-problems-try-a-logging-datasource/
-categories:
-  - How-To
+category:  How-To
 tags:
   - datasource
   - debugging

@@ -3,8 +3,7 @@ title: More Eclipse Upgrading Info
 author: Tim
 layout: post
 redirect_from: /2004/09/03/more-eclipse-upgrading-info/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - eclipse
   - eclipse plugins

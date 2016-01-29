@@ -8,8 +8,7 @@ enclosure:
     http://pcast.scribestudio.com/media_library_content/56930/9386/sound/Martin_Fowler_Keynote_Address.mp3
     28891983
     audio/x-mp3
-categories:
-  - News
+category:  News
 tags:
   - 2006
   - codesmack

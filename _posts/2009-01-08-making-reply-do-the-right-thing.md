@@ -3,8 +3,7 @@ title: Making ‘Reply’ Do the Right Thing
 author: Tim
 layout: post
 redirect_from: /2009/01/08/making-reply-do-the-right-thing/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
   - Featured
 tags:
   - 37signals

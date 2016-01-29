@@ -11,8 +11,7 @@ enclosure:
         17646016
         audio/mpeg
 
-categories:
-  - podcast
+category:  podcast
 tags:
   - automated builds
   - cruisecontrol

@@ -3,8 +3,7 @@ title: 北京, thank you for the 和
 author: Tim
 layout: post
 redirect_from: /2008/08/08/beijing-thank-you-for-the-harmony/
-categories:
-  - Leftovers
+category:  Leftovers
 ---
 As a gymnast in a former life, the Olympics have always held a wonderful set of feelings for me. I enjoy reflecting on the vastness of the world as I watch each [opening ceremony][1]. I speak French, having lived overseas for a couple years, and I really love hearing the French as the first language used for announcements.
 

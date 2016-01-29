@@ -3,8 +3,7 @@ title: Letting your Ant climb over the wall
 author: Tim
 layout: post
 redirect_from: /2003/12/29/letting-your-ant-climb-over-the-wall/
-categories:
-  - Impressions
+category:  Impressions
 ---
 It&#8217;s been quite interesting to play with [Ant][1] 1.6. I&#8217;ve trying to figure out the best way to share `macrodef` snippets between projects, and I think I found my preferred way for now. There are two ways I see for sharing Ant macros:
 

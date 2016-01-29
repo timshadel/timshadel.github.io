@@ -3,8 +3,7 @@ title: Fixed point values in Java
 author: Tim
 layout: post
 redirect_from: /2004/08/12/fixed-point-values-in-java/
-categories:
-  - How-To
+category:  How-To
 tags:
   - accounting
   - java

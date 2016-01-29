@@ -3,8 +3,7 @@ title: $100 Contest Winners Announced
 author: Tim
 layout: post
 redirect_from: /2006/09/01/100-contest-winners-announced/
-categories:
-  - News
+category:  News
 tags:
   - articles
   - contest

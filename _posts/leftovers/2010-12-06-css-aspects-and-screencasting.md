@@ -3,8 +3,7 @@ title: CSS, Aspects, and Screencasting
 author: Tim
 layout: post
 redirect_from: /2010/12/06/css-aspects-and-screencasting/
-categories:
-  - Leftovers
+category:  Leftovers
 ---
 I recently came across an old draft post from 2007 that I never published. It looks finished enough to simply push it out as-is. While it was obviously written before the explosion of CSS frameworks and tools like Blueprint and Compass, those don&#8217;t really have much impact on the core of what I was saying. I hope you find it useful&#8230;
 

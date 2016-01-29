@@ -3,8 +3,7 @@ title: Strange DBUnit Loading Problem
 author: Tim
 layout: post
 redirect_from: /2005/07/11/strange-dbunit-loading-problem/
-categories:
-  - Perplexed
+category:  Perplexed
 tags:
   - dbunit
   - solutions

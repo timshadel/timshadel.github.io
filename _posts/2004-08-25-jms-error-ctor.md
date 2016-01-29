@@ -3,8 +3,7 @@ title: 'JMS Error &#8216;ctor&#8217;'
 author: Tim
 layout: post
 redirect_from: /2004/08/25/jms-error-ctor/
-categories:
-  - Perplexed
+category:  Perplexed
 tags:
   - jms
   - solutions

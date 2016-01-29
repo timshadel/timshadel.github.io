@@ -11,8 +11,7 @@ enclosure:
         audio/mpeg
 
 
-categories:
-  - podcast
+category:  podcast
 tags:
   - patterns
   - spring

@@ -3,8 +3,7 @@ title: 'MF Bliki: AnecdotalEvidence'
 author: Tim
 layout: post
 redirect_from: /2005/10/11/mf-bliki-anecdotalevidence/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - blogging
   - martinfowler

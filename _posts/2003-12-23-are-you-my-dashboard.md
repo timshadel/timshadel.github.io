@@ -3,8 +3,7 @@ title: Are you my Dashboard?
 author: Tim
 layout: post
 redirect_from: /2003/12/23/are-you-my-dashboard/
-categories:
-  - Leftovers
+category:  Leftovers
 tags:
   - apps
 ---

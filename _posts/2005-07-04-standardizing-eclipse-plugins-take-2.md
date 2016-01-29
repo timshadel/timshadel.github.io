@@ -10,8 +10,7 @@ enclosure:
         16350111
         audio/mpeg
 
-categories:
-  - podcast
+category:  podcast
 ---
 Almost a year ago I wrote a blog entry about one way to [standardize Eclipse plugins across your team][1]. It represented our team&#8217;s best guess on how to share plugins. Now that some time has gone by, how good has our experience been with it? I&#8217;d give it an 8 overall, but I think we&#8217;ve outgrown it. What&#8217;s our next strategy? Listen and find out.
 

@@ -10,8 +10,7 @@ enclosure:
         17670103
         audio/mpeg
 
-categories:
-  - podcast
+category:  podcast
 tags:
   - java
   - jsf

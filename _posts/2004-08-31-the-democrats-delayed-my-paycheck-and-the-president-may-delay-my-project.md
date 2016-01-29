@@ -3,8 +3,7 @@ title: The Democrats Delayed My Paycheck and the President May Delay My Project
 author: Tim
 layout: post
 redirect_from: /2004/08/31/the-democrats-delayed-my-paycheck-and-the-president-may-delay-my-project/
-categories:
-  - Leftovers
+category:  Leftovers
 tags:
   - personal
   - weird

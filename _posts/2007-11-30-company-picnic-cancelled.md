@@ -3,8 +3,7 @@ title: Company Picnic Cancelled
 author: Tim
 layout: post
 redirect_from: /2007/11/30/company-picnic-cancelled/
-categories:
-  - Leftovers
+category:  Leftovers
 tags:
   - phoenix
   - rain

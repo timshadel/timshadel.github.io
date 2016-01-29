@@ -3,8 +3,7 @@ title: Does your login page Yahoo?
 author: Tim
 layout: post
 redirect_from: /2003/12/23/does-your-login-page-yahoo/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 ---
 [Yahoo! Mail &#8211; The best free web-based email!][1]
 

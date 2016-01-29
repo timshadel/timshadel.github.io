@@ -3,8 +3,7 @@ title: More Ruby Exporting of Groupwise to iCal
 author: Tim
 layout: post
 redirect_from: /2007/01/19/more-ruby-exporting-of-groupwise-to-ical/
-categories:
-  - How-To
+category:  How-To
 ---
 One of my most frequently requested posts is [my initial exploration][1] into using Ruby to export my Groupwise calendar to iCal format. The code I posted there was simple, and it *almost* worked. I figured that&#8217;d be the jumping off point for a lot of people to dive in and explore the options Ruby has from there. In retrospect, though, I should also have posted my final version that I worked out a few weeks later.
 

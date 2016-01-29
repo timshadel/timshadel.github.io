@@ -3,8 +3,7 @@ title: Where did my Design go?
 author: Tim
 layout: post
 redirect_from: /2006/04/05/where-did-my-design-go/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - accessibility
   - css

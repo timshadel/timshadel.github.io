@@ -3,8 +3,7 @@ title: Rails Page Caching + Mongrel
 author: Tim
 layout: post
 redirect_from: /2007/04/23/rails-page-caching-mongrel/
-categories:
-  - Perplexed
+category:  Perplexed
 tags:
   - mongrel
   - open source

@@ -3,8 +3,7 @@ title: Experiencing Server Problems
 author: Tim
 layout: post
 redirect_from: /2004/09/13/experiencing-server-problems/
-categories:
-  - News
+category:  News
 tags:
   - blogging
 ---

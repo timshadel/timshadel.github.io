@@ -3,8 +3,7 @@ title: Moving from WordPress 2 over to Typo 4
 author: Tim
 layout: post
 redirect_from: /2006/08/19/moving-from-wordpress-2-over-to-typo-4/
-categories:
-  - News
+category:  News
 tags:
   - typo wordpress apache2 rails mongrel
 ---

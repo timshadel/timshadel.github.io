@@ -3,8 +3,7 @@ title: '[Eclipse] Superclass does not implement the &#8216;junit.framework.Test&
 author: Tim
 layout: post
 redirect_from: /2004/08/31/eclipse-superclass-does-not-implement-the-junitframeworktest-interface/
-categories:
-  - Perplexed
+category:  Perplexed
 tags:
   - eclipse
   - junit

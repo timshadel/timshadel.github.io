@@ -3,8 +3,7 @@ title: Flashy Updates
 author: Tim
 layout: post
 redirect_from: /2003/12/23/flashy-updates/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - css
   - design

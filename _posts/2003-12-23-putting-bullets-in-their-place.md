@@ -3,8 +3,7 @@ title: Putting Bullets In Their Place
 author: Tim
 layout: post
 redirect_from: /2003/12/23/putting-bullets-in-their-place/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 ---
 [Mike Clark&#8217;s Weblog][1]
 

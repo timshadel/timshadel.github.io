@@ -3,8 +3,7 @@ title: Off To RailsConf 2007
 author: Tim
 layout: post
 redirect_from: /2007/05/16/off-to-railsconf-2007/
-categories:
-  - News
+category:  News
 tags:
   - codesmack
   - conferences

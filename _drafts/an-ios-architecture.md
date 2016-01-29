@@ -4,8 +4,7 @@ author: Tim
 layout: post
 feature-img: img/feature/architecture.jpg
 feature-attrib: flickr/barnyz
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - architecture
   - ios

@@ -3,8 +3,7 @@ title: Personal Imaging Anyone?
 author: Tim
 layout: post
 redirect_from: /2003/12/24/personal-imaging-anyone/
-categories:
-  - Leftovers
+category:  Leftovers
 ---
 [Blue Sky On Mars: December 23, 2003 Archives][1]
 

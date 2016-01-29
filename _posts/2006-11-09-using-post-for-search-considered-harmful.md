@@ -3,8 +3,7 @@ title: Using POST for Search Considered Harmful
 author: Tim
 layout: post
 redirect_from: /2006/11/09/using-post-for-search-considered-harmful/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - harry potter
   - http

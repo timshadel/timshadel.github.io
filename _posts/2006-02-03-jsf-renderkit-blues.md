@@ -10,8 +10,7 @@ enclosure:
         14720566
         audio/mpeg
 
-categories:
-  - podcast
+category:  podcast
 tags:
   - accessibility
   - html

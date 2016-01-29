@@ -3,8 +3,7 @@ title: On Podfading
 author: Tim
 layout: post
 redirect_from: /2006/02/07/on-podfading/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - blogging
   - frequency

@@ -3,8 +3,7 @@ title: DHH On Stateful Web Applications
 author: Tim
 layout: post
 redirect_from: /2007/04/13/dhh-on-stateful-web-applications/
-categories:
-  - Impressions
+category:  Impressions
 ---
 In last year&#8217;s [JSF Burrito podcasts][1], I argued that I didn&#8217;t see the point of using a strong component model for [JSF][2] and that throwing away nice HTTP RESTful URIs is a Bad Thing. In an interview with InfoQ, DHH takes up a similar (though probably more polite) stance.
 

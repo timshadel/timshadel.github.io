@@ -3,8 +3,7 @@ title: Query Your Filesystem
 author: Tim
 layout: post
 redirect_from: /2010/12/03/query-your-filesystem/
-categories:
-  - Leftovers
+category:  Leftovers
 ---
 Queries are a way of asking a computer system questions. (I heard you say &#8216;duh!&#8217;) You&#8217;ve probably done this lots in SQL to ask your database questions. How many members have this condition? How much money was sent to these people in August? But how about this one: Which file has the bean named &#8216;myCrazyService&#8217; in it? Or, How many projects refer to the old version of &#8216;projectFastMoving&#8217;? For these questions you should turn to the *nix-like file utilities.
 

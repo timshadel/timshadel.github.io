@@ -3,8 +3,7 @@ title: Conversions Galore!
 author: Tim
 layout: post
 redirect_from: /2005/07/21/conversions-galore/
-categories:
-  - News
+category:  News
 tags:
   - blogging
   - isp

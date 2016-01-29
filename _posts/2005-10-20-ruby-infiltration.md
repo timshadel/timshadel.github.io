@@ -12,8 +12,7 @@ enclosure:
 
 project:
   - Fixing audio quality
-categories:
-  - podcast
+category:  podcast
 tags:
   - maven
   - rails

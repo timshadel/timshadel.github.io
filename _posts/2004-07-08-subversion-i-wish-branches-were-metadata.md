@@ -3,8 +3,7 @@ title: '[Subversion] I wish branches were metadata'
 author: Tim
 layout: post
 redirect_from: /2004/07/08/subversion-i-wish-branches-were-metadata/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - subversion
   - version control

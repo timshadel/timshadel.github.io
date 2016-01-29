@@ -3,8 +3,7 @@ title: 'Don&#8217;t lose this'
 author: Tim
 layout: post
 redirect_from: /2003/12/29/dont-lose-this/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 ---
 After reading [Phil Windley][1]&#8216;s [post][2] about login.utah.gov, I wanted to check it out for myself. We&#8217;ve just finished a structure to users affiliated with the ASRS to register and login to future applications, and I was interested in the state-wide direction that Utah has taken.
 

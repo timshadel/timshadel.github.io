@@ -3,8 +3,7 @@ title: Inbox Zero
 author: Tim
 layout: post
 redirect_from: /2007/09/11/inbox-zero/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - 43folders
   - davidallen

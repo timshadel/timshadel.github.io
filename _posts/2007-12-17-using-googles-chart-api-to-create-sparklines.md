@@ -3,8 +3,7 @@ title: 'Using Google&#8217;s Chart API to Create Sparklines'
 author: Tim
 layout: post
 redirect_from: /2007/12/17/using-googles-chart-api-to-create-sparklines/
-categories:
-  - How-To
+category:  How-To
 tags:
   - analytics
   - api

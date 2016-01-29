@@ -3,8 +3,7 @@ title: BYU CS Alumni Blogs
 author: Tim
 layout: post
 redirect_from: /2004/08/09/byu-cs-alumni-blogs/
-categories:
-  - Leftovers
+category:  Leftovers
 tags:
   - blogging
   - byu

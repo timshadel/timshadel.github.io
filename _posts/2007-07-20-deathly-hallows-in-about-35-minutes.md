@@ -3,8 +3,7 @@ title: Deathly Hallows in about 35 minutes
 author: Tim
 layout: post
 redirect_from: /2007/07/20/deathly-hallows-in-about-35-minutes/
-categories:
-  - Leftovers
+category:  Leftovers
 tags:
   - fun
   - harrypotter

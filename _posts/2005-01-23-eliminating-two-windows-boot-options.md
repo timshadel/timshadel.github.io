@@ -3,8 +3,7 @@ title: Eliminating Two Windows Boot Options
 author: Tim
 layout: post
 redirect_from: /2005/01/23/eliminating-two-windows-boot-options/
-categories:
-  - Perplexed
+category:  Perplexed
 tags:
   - boot options
   - grub

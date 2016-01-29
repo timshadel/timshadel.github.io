@@ -3,8 +3,7 @@ title: Funny Firey ForecastFox Figure
 author: Tim
 layout: post
 redirect_from: /2005/06/28/funny-firey-forecastfox-figure/
-categories:
-  - Leftovers
+category:  Leftovers
 tags:
   - firefox
 ---

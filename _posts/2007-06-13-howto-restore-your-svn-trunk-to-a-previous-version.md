@@ -3,8 +3,7 @@ title: HOWTO Restore Your SVN Trunk to a Previous Version
 author: Tim
 layout: post
 redirect_from: /2007/06/13/howto-restore-your-svn-trunk-to-a-previous-version/
-categories:
-  - How-To
+category:  How-To
 ---
 Sometimes you just need to admit that you&#8217;ve loused things up and you want to go back to the way you had them last Thursday. It takes courage to throw in the towel, but it also takes a reasonable understanding of how to do it quickly with your tool. Here&#8217;s the simple procedure I follow when I want my `trunk` restored to a previous version.
 

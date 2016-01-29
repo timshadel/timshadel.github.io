@@ -3,8 +3,7 @@ title: Watch for New Podcasts Soon
 author: Tim
 layout: post
 redirect_from: /2005/06/24/watch-for-new-podcasts-soon/
-categories:
-  - News
+category:  News
 tags:
   - personal
 ---

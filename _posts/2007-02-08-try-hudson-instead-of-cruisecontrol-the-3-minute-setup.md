@@ -3,8 +3,7 @@ title: 'Try Hudson Instead of CruiseControl: The 3 Minute Setup'
 author: Tim
 layout: post
 redirect_from: /2007/02/08/try-hudson-instead-of-cruisecontrol-the-3-minute-setup/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 ---
   1. Download [winstone][1] from it&#8217;s [Sourceforge Files page][2]
   2. Download the [Hudson][3] war file from its [Java.net Release page][4]

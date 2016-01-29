@@ -3,8 +3,7 @@ title: Kid Stuff @ CodeSmack
 author: Tim
 layout: post
 redirect_from: /2007/05/22/kid-stuff-codesmack/
-categories:
-  - News
+category:  News
 tags:
   - codesmack
   - coding

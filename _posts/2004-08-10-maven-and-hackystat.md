@@ -3,8 +3,7 @@ title: Maven and Hackystat
 author: Tim
 layout: post
 redirect_from: /2004/08/10/maven-and-hackystat/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - hackystat
   - maven

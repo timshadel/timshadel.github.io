@@ -3,8 +3,7 @@ title: Setting up Basecamp
 author: Tim
 layout: post
 redirect_from: /2005/01/24/setting-up-basecamp/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - basecamp
   - ical

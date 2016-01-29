@@ -3,8 +3,7 @@ title: I should be in charge of everything, or why bureaucracy stinks
 author: Tim
 layout: post
 redirect_from: /2007/01/10/i-should-be-in-charge-of-everything-or-why-bureaucracy-stinks/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - big company culture
   - bureaucracy

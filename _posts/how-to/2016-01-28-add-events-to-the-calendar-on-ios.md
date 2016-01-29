@@ -2,8 +2,7 @@
 title: Add Events to the Calendar on iOS
 author: Tim
 layout: post
-categories:
-  - How-To
+category:  How-To
 tags:
   - ios
   - calendar

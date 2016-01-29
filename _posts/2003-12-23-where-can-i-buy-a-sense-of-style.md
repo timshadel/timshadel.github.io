@@ -3,8 +3,7 @@ title: Where can I buy a sense of Style?
 author: Tim
 layout: post
 redirect_from: /2003/12/23/where-can-i-buy-a-sense-of-style/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - ant
   - xml

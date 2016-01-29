@@ -3,8 +3,7 @@ title: 'Maybe I&#8217;ve been busy'
 author: Tim
 layout: post
 redirect_from: /2007/10/01/maybe-ive-been-busy/
-categories:
-  - Leftovers
+category:  Leftovers
 tags:
   - busy
   - dilbert

@@ -3,8 +3,7 @@ title: New Ant tasks make build reuse a slice of pie
 author: Tim
 layout: post
 redirect_from: /2003/12/24/new-ant-tasks-make-build-reuse-a-slice-of-pie/
-categories:
-  - Impressions
+category:  Impressions
 ---
 [Stefan Bodewig][1] [notes][2] some of the main improvements in the [Ant][3] [1.6 release][4] in this entry. I think that between the [<import>][5], [<subant>][6] and [<macrodef>][7] tasks, I should be able to easily make a pretty killer reusable build system.
 

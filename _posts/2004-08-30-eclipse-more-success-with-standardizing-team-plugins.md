@@ -3,8 +3,7 @@ title: '[Eclipse] More success with standardizing team plugins'
 author: Tim
 layout: post
 redirect_from: /2004/08/30/eclipse-more-success-with-standardizing-team-plugins/
-categories:
-  - How-To
+category:  How-To
 tags:
   - eclipse
   - plugins

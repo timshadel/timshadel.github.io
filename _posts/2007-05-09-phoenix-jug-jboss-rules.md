@@ -3,8 +3,7 @@ title: 'Phoenix JUG: JBoss Rules'
 author: Tim
 layout: post
 redirect_from: /2007/05/09/phoenix-jug-jboss-rules/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - drools
   - java

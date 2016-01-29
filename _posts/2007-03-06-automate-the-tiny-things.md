@@ -3,8 +3,7 @@ title: Automate the Tiny Things
 author: Tim
 layout: post
 redirect_from: /2007/03/06/automate-the-tiny-things/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - alias
   - automation

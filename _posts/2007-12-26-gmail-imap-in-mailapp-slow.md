@@ -3,8 +3,7 @@ title: GMail IMAP in Mail.app Slow?
 author: Tim
 layout: post
 redirect_from: /2007/12/26/gmail-imap-in-mailapp-slow/
-categories:
-  - Perplexed
+category:  Perplexed
 tags:
   - gmail
   - IMAP

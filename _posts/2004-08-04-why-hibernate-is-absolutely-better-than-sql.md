@@ -3,8 +3,7 @@ title: Why Hibernate is absolutely better than SQL
 author: Tim
 layout: post
 redirect_from: /2004/08/04/why-hibernate-is-absolutely-better-than-sql/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - hibernate
   - jdbc

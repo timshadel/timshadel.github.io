@@ -3,8 +3,7 @@ title: 'Bye Typo &#8211; Back to WordPress; Podcast Fixed'
 author: Tim
 layout: post
 redirect_from: /2006/11/14/bye-typo-back-to-wordpress-podcast-fixed/
-categories:
-  - News
+category:  News
 tags:
   - typo
   - wordpress

@@ -3,8 +3,7 @@ title: Macports Erlang Install
 author: Tim
 layout: post
 redirect_from: /2007/04/19/macports-erlang-install/
-categories:
-  - Perplexed
+category:  Perplexed
 ---
 So I ran into a funny error today while trying to install `erlang` on my Mac.
 

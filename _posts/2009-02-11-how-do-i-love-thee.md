@@ -3,8 +3,7 @@ title: How Do I Love Thee?
 author: Tim
 layout: post
 redirect_from: /2009/02/11/how-do-i-love-thee/
-categories:
-  - News
+category:  News
 tags:
   - anniversary
   - love

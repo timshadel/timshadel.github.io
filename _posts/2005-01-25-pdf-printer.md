@@ -3,8 +3,7 @@ title: PDF printer
 author: Tim
 layout: post
 redirect_from: /2005/01/25/pdf-printer/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - acrobat
   - pdf printer

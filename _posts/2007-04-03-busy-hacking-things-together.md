@@ -8,8 +8,7 @@ enclosure:
     http://pcast.scribestudio.com/media_library_content/56930/9386/sound/Paul_Grahame_Keynote_Address.mp3
     20293723
     audio/x-mp3
-categories:
-  - News
+category:  News
 ---
 I&#8217;ve been silent again. I know, it&#8217;s not what I intended at the beginning of the year. It&#8217;s just that it&#8217;s so much fun to go off and [build][1] [stuff][2]. I get sucked into all sorts of side projects outside work that are interesting and time consuming (not to mention time spent with the fam &#8212; two under the age of 2 is both a joy and a handful!).
 

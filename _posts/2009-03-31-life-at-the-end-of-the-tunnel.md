@@ -3,8 +3,7 @@ title: Life at the End of the Tunnel
 author: Tim
 layout: post
 redirect_from: /2009/03/31/life-at-the-end-of-the-tunnel/
-categories:
-  - News
+category:  News
 tags:
   - blogging
   - job

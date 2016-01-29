@@ -3,8 +3,7 @@ title: 'Ant: Available task for multiple files'
 author: Tim
 layout: post
 redirect_from: /2004/06/30/ant-available-task-for-multiple-files/
-categories:
-  - How-To
+category:  How-To
 tags:
   - ant
   - maven

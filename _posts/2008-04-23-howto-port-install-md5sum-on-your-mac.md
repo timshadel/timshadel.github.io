@@ -3,8 +3,7 @@ title: HOWTO port install md5sum on your Mac
 author: Tim
 layout: post
 redirect_from: /2008/04/23/howto-port-install-md5sum-on-your-mac/
-categories:
-  - How-To
+category:  How-To
 tags:
   - hash
   - linux

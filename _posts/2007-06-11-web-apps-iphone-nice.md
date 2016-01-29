@@ -3,8 +3,7 @@ title: Web apps + iPhone, Nice
 author: Tim
 layout: post
 redirect_from: /2007/06/11/web-apps-iphone-nice/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - apple
   - development

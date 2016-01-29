@@ -3,8 +3,7 @@ title: 'JSF: Spec vs. Implementation'
 author: Tim
 layout: post
 redirect_from: /2006/02/07/jsf-spec-vs-implementation/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - feedback
   - java

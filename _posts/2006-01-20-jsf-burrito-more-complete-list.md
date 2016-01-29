@@ -3,8 +3,7 @@ title: 'JSF Burrito: More Complete List'
 author: Tim
 layout: post
 redirect_from: /2006/01/20/jsf-burrito-more-complete-list/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - java
   - jsf

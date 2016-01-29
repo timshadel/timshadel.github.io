@@ -3,8 +3,7 @@ title: 'URLs as Identity: Time Does Matter'
 author: Tim
 layout: post
 redirect_from: /2005/12/01/urls-as-identity-time-does-matter/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - digital identity
 ---

@@ -3,8 +3,7 @@ title: Calm before the storm
 author: Tim
 layout: post
 redirect_from: /2007/01/17/calm-before-the-storm/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - branching
   - environment

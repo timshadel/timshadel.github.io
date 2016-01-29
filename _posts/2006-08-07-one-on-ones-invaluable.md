@@ -3,8 +3,7 @@ title: 'One on One&#8217;s: Invaluable'
 author: Tim
 layout: post
 redirect_from: /2006/08/07/one-on-ones-invaluable/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - management
   - one on ones

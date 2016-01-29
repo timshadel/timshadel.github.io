@@ -3,8 +3,7 @@ title: The Buy vs. Build Battle
 author: Tim
 layout: post
 redirect_from: /2005/02/01/buy-vs-build/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - business
 ---

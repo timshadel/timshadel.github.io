@@ -3,8 +3,7 @@ title: 'Building a Megajar with Maven2 &#8211; The Right Way'
 author: Tim
 layout: post
 redirect_from: /2006/08/28/building-a-megajar-with-maven2-the-right-way/
-categories:
-  - How-To
+category:  How-To
 tags:
   - assembly plugin
   - maven

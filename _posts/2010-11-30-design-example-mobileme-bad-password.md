@@ -3,9 +3,7 @@ title: 'Design Example: MobileMe Bad Password'
 author: Tim
 layout: post
 redirect_from: /2010/11/30/design-example-mobileme-bad-password/
-categories:
-  - Featured
-  - Impressions
+category:  Impressions
 ---
 I love to find examples of small details around the web that impress me in their innovation, craftsmanship, beauty, or structure. Here&#8217;s one I ran across last week:
 

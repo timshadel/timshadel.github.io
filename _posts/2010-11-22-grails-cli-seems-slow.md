@@ -3,8 +3,7 @@ title: Grails CLI seems slow
 author: Tim
 layout: post
 redirect_from: /2010/11/22/grails-cli-seems-slow/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - consulting
   - grails

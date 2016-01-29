@@ -3,9 +3,7 @@ title: Craft Personas with a Template
 author: Tim
 layout: post
 redirect_from: /2009/01/05/craft-personas-with-a-template/
-categories:
-  - Featured
-  - How-To
+category:  How-To
 tags:
   - agile
   - iwork

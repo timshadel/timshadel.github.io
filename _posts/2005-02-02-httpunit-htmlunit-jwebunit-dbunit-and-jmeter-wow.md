@@ -3,8 +3,7 @@ title: 'HttpUnit, HtmlUnit, jWebUnit, DbUnit, and JMeter &#8211; wow!'
 author: Tim
 layout: post
 redirect_from: /2005/02/02/httpunit-htmlunit-jwebunit-dbunit-and-jmeter-wow/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - dbunit
   - httpunit

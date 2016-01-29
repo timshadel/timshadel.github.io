@@ -3,8 +3,7 @@ title: Subtle Activity Cues
 author: Tim
 layout: post
 redirect_from: /2010/12/16/subtle-activity-cues/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - activity
   - design

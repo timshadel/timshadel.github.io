@@ -3,8 +3,7 @@ title: 'Thanks for Mongrel, Zed — don&#8217;t let the door hit you&#8230;'
 author: Tim
 layout: post
 redirect_from: /2008/01/03/thanks-for-mongrel-zed-dont-let-the-door-hit-you/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - mongrel
   - pragdave

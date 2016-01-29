@@ -3,8 +3,7 @@ title: A Day Of Mourning And Resolve
 author: Tim
 layout: post
 redirect_from: /2007/04/17/a-day-of-mourning-and-resolve/
-categories:
-  - Leftovers
+category:  Leftovers
 ---
 <div style="text-align: center">
   <a href="http://collegemedia.com/" title="CollegiateTimes Front Page 4/17/2007"><img src="http://www.collegiatetimes.org.vt.edu/ct-front-2007apr17.jpg" alt="CollegiateTimes Front Page 4/17/2007" style="margin: 0 auto; width: 250px" /></a>

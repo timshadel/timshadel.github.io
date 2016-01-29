@@ -3,8 +3,7 @@ title: Hiring a Great Java Developer
 author: Tim
 layout: post
 redirect_from: /2007/06/20/hiring-a-great-java-developer/
-categories:
-  - News
+category:  News
 tags:
   - hiring
   - java

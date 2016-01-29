@@ -3,8 +3,7 @@ title: Refactoring the Publishing Process
 author: Tim
 layout: post
 redirect_from: /2003/12/23/refactoring-the-publishing-process/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - writing
 ---

@@ -3,8 +3,7 @@ title: '[Blog] Trying out Blogger'
 author: Tim
 layout: post
 redirect_from: /2004/11/04/blog-trying-out-blogger/
-categories:
-  - News
+category:  News
 tags:
   - blogger
   - hosting

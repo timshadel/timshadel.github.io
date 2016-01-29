@@ -3,8 +3,7 @@ title: Watch Out For Exploding Water
 author: Tim
 layout: post
 redirect_from: /2007/12/10/watch-out-for-exploding-water/
-categories:
-  - Leftovers
+category:  Leftovers
 tags:
   - exploding water
   - microwave

@@ -3,8 +3,7 @@ title: Just What The Doc Ordered
 author: Tim
 layout: post
 redirect_from: /2003/12/19/just-what-the-doc-ordered/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 ---
 I&#8217;ve been toying with the idea of writing a book lately, and [this][1] set of hacking instructions for [subversion][2]&#8216;s book really got me excited. They describe [DocbookLite][3], the book format used by O&#8217;Reilly.
 

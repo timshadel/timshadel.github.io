@@ -3,8 +3,7 @@ title: 'My Philosophy for Choosing git &#038; GitHub over Mercurial &#038; BitBu
 author: Tim
 layout: post
 redirect_from: /2010/10/11/my-philosophy-for-choosing-git-github-over-mercurial-bitbucket/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
   - Featured
   - Impressions
 tags:

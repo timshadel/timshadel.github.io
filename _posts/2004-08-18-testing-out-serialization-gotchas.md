@@ -3,8 +3,7 @@ title: Testing Out Serialization Gotchas
 author: Tim
 layout: post
 redirect_from: /2004/08/18/testing-out-serialization-gotchas/
-categories:
-  - How-To
+category:  How-To
 tags:
   - enums
   - java

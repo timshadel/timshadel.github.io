@@ -3,8 +3,7 @@ title: OpenSolaris or Ubuntu?
 author: Tim
 layout: post
 redirect_from: /2007/07/17/opensolaris-or-ubuntu/
-categories:
-  - Impressions
+category:  Impressions
 ---
 Back at RailsConf a couple months ago, there were a few presentations that made an interesting case for considering OpenSolaris instead of Linux. I had never really considered Solaris much before then. When we got back, one of my friends, [Preston Lee][1], really wanted to dig into it to find out more. He got a buddy that&#8217;s a Ph.D. candidate to put his research hat on and [compare OpenSolaris ZFS vs. Linux ext3 RAID5][2].
 

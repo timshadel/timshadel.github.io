@@ -3,8 +3,7 @@ title: Extracting CAS configuration into YAML, like database.yml
 author: Tim
 layout: post
 redirect_from: /2008/05/31/extracting-cas-configuration-into-yaml-like-databaseyml/
-categories:
-  - How-To
+category:  How-To
 tags:
   - authentication
   - cas

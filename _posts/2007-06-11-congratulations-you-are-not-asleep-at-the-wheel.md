@@ -3,8 +3,7 @@ title: Congratulations, you are not asleep at the wheel!!!
 author: Tim
 layout: post
 redirect_from: /2007/06/11/congratulations-you-are-not-asleep-at-the-wheel/
-categories:
-  - Impressions
+category:  Impressions
 ---
 I&#8217;ve been using Safari 3 for Mac OS X for a couple hours, and while things seem generally nice so far (I love the expandable text areas, and it really is a very fast browser), it&#8217;s definitely a beta. I ran into a few odd screens, while trying to learn the shortcuts. Like this one:
 

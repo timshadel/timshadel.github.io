@@ -3,8 +3,7 @@ title: Simple way to find locked rows
 author: Tim
 layout: post
 redirect_from: /2003/12/21/simple-way-to-find-locked-rows/
-categories:
-  - How-To
+category:  How-To
 ---
 I had an application from another group fail, and lock a DB row that I needed to use. In the investigation, a DBA showed me this code to figure out which rows were locked.
 

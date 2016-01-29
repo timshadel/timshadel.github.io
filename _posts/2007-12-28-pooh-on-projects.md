@@ -3,8 +3,7 @@ title: Pooh on Projects
 author: Tim
 layout: post
 redirect_from: /2007/12/28/pooh-on-projects/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 tags:
   - business
   - communication

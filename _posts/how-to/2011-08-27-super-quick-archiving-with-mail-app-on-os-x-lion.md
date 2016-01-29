@@ -3,8 +3,7 @@ title: Super Quick Archiving with Mail.app on OS X Lion
 author: Tim
 layout: post
 redirect_from: /2011/08/27/super-quick-archiving-with-mail-app-on-os-x-lion/
-categories:
-  - How-To
+category:  How-To
 tags:
   - archive
   - gtd

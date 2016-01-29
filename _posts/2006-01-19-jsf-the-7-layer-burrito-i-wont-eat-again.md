@@ -10,8 +10,7 @@ enclosure:
         18354721
         audio/mpeg
 
-categories:
-  - podcast
+category:  podcast
 tags:
   - bad choices
   - java

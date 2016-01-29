@@ -3,8 +3,7 @@ title: Clean builds are possible
 author: Tim
 layout: post
 redirect_from: /2005/12/19/clean-builds-are-possible/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 ---
 This was a wonderous site to see, and one a long time coming. After long months of working to build a sense of importance for the build, we finally got every one of our 199 projects in CruiseControl to build successfully. Good work team.
 

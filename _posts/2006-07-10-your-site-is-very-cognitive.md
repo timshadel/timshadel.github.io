@@ -3,8 +3,7 @@ title: Your site is very cognitive.
 author: Tim
 layout: post
 redirect_from: /2006/07/10/your-site-is-very-cognitive/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - comment spam
 ---

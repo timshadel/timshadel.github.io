@@ -3,8 +3,7 @@ title: '[Subversion] Figure out which folders changed on a branch'
 author: Tim
 layout: post
 redirect_from: /2005/10/13/subversion-figure-out-which-folders-changed-on-a-branch/
-categories:
-  - How-To
+category:  How-To
 tags:
   - recipe
   - solutions

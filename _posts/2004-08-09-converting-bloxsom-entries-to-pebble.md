@@ -3,8 +3,7 @@ title: Converting Bloxsom entries to Pebble
 author: Tim
 layout: post
 redirect_from: /2004/08/09/converting-bloxsom-entries-to-pebble/
-categories:
-  - News
+category:  News
 tags:
   - bash
   - blosxom

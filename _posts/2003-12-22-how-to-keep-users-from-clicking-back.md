@@ -3,8 +3,7 @@ title: 'How to Keep Users from Clicking &#8220;Back&#8221;'
 author: Tim
 layout: post
 redirect_from: /2003/12/22/how-to-keep-users-from-clicking-back/
-categories:
-  - How-To
+category:  How-To
 tags:
   - struts
   - web development

@@ -3,8 +3,7 @@ title: Juice Goes Django
 author: Tim
 layout: post
 redirect_from: /2007/05/04/juice-goes-django/
-categories:
-  - Craftsmanship
+category:  Craftsmanship
 ---
 [Kaizen and Juice 2.0 &#8211; Juice Analytics][1]
 

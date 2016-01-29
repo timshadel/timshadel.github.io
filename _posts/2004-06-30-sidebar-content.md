@@ -3,8 +3,7 @@ title: Sidebar content
 author: Tim
 layout: post
 redirect_from: /2004/06/30/sidebar-content/
-categories:
-  - News
+category:  News
 tags:
   - confluence
   - cvs

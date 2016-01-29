@@ -3,8 +3,7 @@ title: 'Election Results: Mac over Ubuntu in a landslide'
 author: Tim
 layout: post
 redirect_from: /2006/11/15/election-results-mac-over-ubuntu-in-a-landslide/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - bluetooth
   - email

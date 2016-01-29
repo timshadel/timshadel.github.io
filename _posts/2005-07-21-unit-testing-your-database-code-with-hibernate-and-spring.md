@@ -10,8 +10,7 @@ enclosure:
         24858506
         audio/mpeg
 
-categories:
-  - podcast
+category:  podcast
 tags:
   - dbunit
   - hibernate

@@ -3,8 +3,7 @@ title: 'Git&#8217;s Coolness'
 author: Tim
 layout: post
 redirect_from: /2008/04/08/gits-coolness/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - git
   - merge

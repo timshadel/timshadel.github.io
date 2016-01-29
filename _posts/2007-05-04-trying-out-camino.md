@@ -3,8 +3,7 @@ title: Trying out Camino
 author: Tim
 layout: post
 redirect_from: /2007/05/04/trying-out-camino/
-categories:
-  - Impressions
+category:  Impressions
 tags:
   - browser
   - camino
