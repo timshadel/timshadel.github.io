@@ -4,7 +4,6 @@ author: Tim
 layout: post
 redirect_from: /2009/01/08/making-reply-do-the-right-thing/
 category:  Craftsmanship
-  - Featured
 tags:
   - 37signals
   - agile
