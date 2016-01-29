@@ -76,6 +76,10 @@ func showEventInUserCalendar(myEvent: Event) {
 }
 {% endhighlight %}
 
+That will show the user our event data and let them choose how to edit it before saving the event to the calendar of their choice.
+
+![Screenshot of the calendar item being edited](/img/post/2016-add-events-to-the-ios-calendar-screenshot.png)
+
 Once the user saves the event to their calendar, we'll get a callback.
 
 {% highlight swift %}
