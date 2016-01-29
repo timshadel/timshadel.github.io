@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://timshadel.com" # the base hostname & protocol for your site
+url: "http://timshadel.com" # the base hostname & protocol for your site
 title: Zdot
 subtitle: Thinking out loud, in color.
 description: A blog and podcast about technology and family.
