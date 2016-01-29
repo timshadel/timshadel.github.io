@@ -72,7 +72,7 @@ func showEventInUserCalendar(myEvent: Event) {
     editViewController.eventStore = eventStore
     editViewController.event = calendarEvent
     editViewController.editViewDelegate = self
-    self.presentViewController(editViewController, animated: true, completion: nil)
+    presentViewController(editViewController, animated: true, completion: nil)
 }
 {% endhighlight %}
 
@@ -85,7 +85,7 @@ extension MyViewController: EKEventEditViewDelegate {
         if let calendarEvent = controller.event where action == .Saved {
             // Save calendarEvent.eventIdentifier somewhere nice
         }
-        self.dismissViewControllerAnimated(true, completion: nil)
+        dismissViewControllerAnimated(true, completion: nil)
     }
 
 }
