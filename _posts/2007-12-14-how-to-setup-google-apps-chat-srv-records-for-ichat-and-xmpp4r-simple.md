@@ -2,7 +2,7 @@
 title: How to Setup Google Apps Chat SRV Records For iChat and xmpp4r-simple
 author: Tim
 layout: post
-permalink: /2007/12/14/how-to-setup-google-apps-chat-srv-records-for-ichat-and-xmpp4r-simple/
+redirect_from: /2007/12/14/how-to-setup-google-apps-chat-srv-records-for-ichat-and-xmpp4r-simple/
 categories:
   - How-To
 tags:

@@ -2,7 +2,7 @@
 title: 'Building a Megajar with Maven2 &#8211; The Right Way'
 author: Tim
 layout: post
-permalink: /2006/08/28/building-a-megajar-with-maven2-the-right-way/
+redirect_from: /2006/08/28/building-a-megajar-with-maven2-the-right-way/
 categories:
   - How-To
 tags:

@@ -2,7 +2,7 @@
 title: Simple way to find locked rows
 author: Tim
 layout: post
-permalink: /2003/12/21/simple-way-to-find-locked-rows/
+redirect_from: /2003/12/21/simple-way-to-find-locked-rows/
 categories:
   - How-To
 ---

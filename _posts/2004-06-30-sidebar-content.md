@@ -2,7 +2,7 @@
 title: Sidebar content
 author: Tim
 layout: post
-permalink: /2004/06/30/sidebar-content/
+redirect_from: /2004/06/30/sidebar-content/
 categories:
   - News
 tags:

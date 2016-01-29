@@ -2,7 +2,7 @@
 title: Macports Erlang Install
 author: Tim
 layout: post
-permalink: /2007/04/19/macports-erlang-install/
+redirect_from: /2007/04/19/macports-erlang-install/
 categories:
   - Perplexed
 ---

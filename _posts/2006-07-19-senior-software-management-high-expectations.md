@@ -2,7 +2,7 @@
 title: 'Senior Software Management: High Expectations'
 author: Tim
 layout: post
-permalink: /2006/07/19/senior-software-management-high-expectations/
+redirect_from: /2006/07/19/senior-software-management-high-expectations/
 categories:
   - Craftsmanship
 tags:

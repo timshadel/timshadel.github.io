@@ -2,7 +2,7 @@
 title: How Do I Love Thee?
 author: Tim
 layout: post
-permalink: /2009/02/11/how-do-i-love-thee/
+redirect_from: /2009/02/11/how-do-i-love-thee/
 categories:
   - News
 tags:

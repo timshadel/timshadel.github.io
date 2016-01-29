@@ -2,7 +2,7 @@
 title: On Podfading
 author: Tim
 layout: post
-permalink: /2006/02/07/on-podfading/
+redirect_from: /2006/02/07/on-podfading/
 categories:
   - Impressions
 tags:

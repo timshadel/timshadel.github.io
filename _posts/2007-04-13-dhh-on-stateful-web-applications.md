@@ -2,7 +2,7 @@
 title: DHH On Stateful Web Applications
 author: Tim
 layout: post
-permalink: /2007/04/13/dhh-on-stateful-web-applications/
+redirect_from: /2007/04/13/dhh-on-stateful-web-applications/
 categories:
   - Impressions
 ---
@@ -11,7 +11,7 @@ In last year&#8217;s [JSF Burrito podcasts][1], I argued that I didn&#8217;t see
 [InfoQ: DHH Responds to Stateful Web Applications Row][3]
 
 > [There is an] assumption that all web developers really want to be desktop developers and that all web applications would be better if only they were more like their desktop counterparts. I don&#8217;t accept that assumption. I love working with the web as it is. I love the architectural patterns offered by HTTP and REST.
-> 
+>
 > So in many ways, I see chasing a desktop-like view of the web as chasing the past, not the future.
 
 I&#8217;ve written about my reactions to JSF one year after the burrito entries. I find myself clearly in the camp that DHH is in: making desktop-like web apps is chasing the past, using RESTful style development is an approach I prefer.

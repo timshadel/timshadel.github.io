@@ -2,7 +2,7 @@
 title: 'Zdot Podcast: Peer Review Techniques'
 author: Tim
 layout: post
-permalink: /2005/02/14/zdot-podcast-peer-review-techniques/
+redirect_from: /2005/02/14/zdot-podcast-peer-review-techniques/
 enclosure:
   - |
     |

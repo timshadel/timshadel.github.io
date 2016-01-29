@@ -2,7 +2,7 @@
 title: Standing Up Against the Sleaze
 author: Tim
 layout: post
-permalink: /2007/02/18/standing-up-against-the-sleaze/
+redirect_from: /2007/02/18/standing-up-against-the-sleaze/
 categories:
   - Impressions
 ---

@@ -2,7 +2,7 @@
 title: HOWTO Restore Your SVN Trunk to a Previous Version
 author: Tim
 layout: post
-permalink: /2007/06/13/howto-restore-your-svn-trunk-to-a-previous-version/
+redirect_from: /2007/06/13/howto-restore-your-svn-trunk-to-a-previous-version/
 categories:
   - How-To
 ---

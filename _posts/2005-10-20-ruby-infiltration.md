@@ -2,7 +2,7 @@
 title: Ruby Infiltration
 author: Tim
 layout: post
-permalink: /2005/10/20/ruby-infiltration/
+redirect_from: /2005/10/20/ruby-infiltration/
 enclosure:
   - |
     |

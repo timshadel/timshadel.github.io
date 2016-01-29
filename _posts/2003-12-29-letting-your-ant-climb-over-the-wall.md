@@ -2,7 +2,7 @@
 title: Letting your Ant climb over the wall
 author: Tim
 layout: post
-permalink: /2003/12/29/letting-your-ant-climb-over-the-wall/
+redirect_from: /2003/12/29/letting-your-ant-climb-over-the-wall/
 categories:
   - Impressions
 ---

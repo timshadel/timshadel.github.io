@@ -2,7 +2,7 @@
 title: Eliminating Two Windows Boot Options
 author: Tim
 layout: post
-permalink: /2005/01/23/eliminating-two-windows-boot-options/
+redirect_from: /2005/01/23/eliminating-two-windows-boot-options/
 categories:
   - Perplexed
 tags:

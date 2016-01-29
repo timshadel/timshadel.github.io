@@ -2,7 +2,7 @@
 title: Happy iPhone Day!
 author: Tim
 layout: post
-permalink: /2007/06/29/happy-iphone-day/
+redirect_from: /2007/06/29/happy-iphone-day/
 categories:
   - News
 tags:

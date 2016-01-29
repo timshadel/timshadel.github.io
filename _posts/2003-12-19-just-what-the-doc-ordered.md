@@ -2,7 +2,7 @@
 title: Just What The Doc Ordered
 author: Tim
 layout: post
-permalink: /2003/12/19/just-what-the-doc-ordered/
+redirect_from: /2003/12/19/just-what-the-doc-ordered/
 categories:
   - Craftsmanship
 ---

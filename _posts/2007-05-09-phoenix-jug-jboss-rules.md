@@ -2,7 +2,7 @@
 title: 'Phoenix JUG: JBoss Rules'
 author: Tim
 layout: post
-permalink: /2007/05/09/phoenix-jug-jboss-rules/
+redirect_from: /2007/05/09/phoenix-jug-jboss-rules/
 categories:
   - Craftsmanship
 tags:
@@ -21,7 +21,7 @@ At work, we use JBoss Rules for a small portion of our code but that code handle
 
 While a lot of the value of a presentation is in the verbal exchange that goes on in the room, I figure there&#8217;s something to be gained by gazing through the slides and sample code after the fact. With any luck, I&#8217;ll take some time in the next couple weeks to put up some podcasts (gasp!) on JBoss Rules. Enjoy.
 
-**Presentation:** [rules.pdf][2]  
+**Presentation:** [rules.pdf][2]
 **Source Code:** [jboss-rules][3]
 
  [1]: http://phxjug.org/meetings.html

@@ -2,7 +2,7 @@
 title: Converting Bloxsom entries to Pebble
 author: Tim
 layout: post
-permalink: /2004/08/09/converting-bloxsom-entries-to-pebble/
+redirect_from: /2004/08/09/converting-bloxsom-entries-to-pebble/
 categories:
   - News
 tags:
@@ -33,7 +33,7 @@ I started by taking an existing entry and building a header and footer to wrap t
           cat /path/to/foot.tmp >> ${i%.txt}.xml;
   done
   </pre>
-  
+
 </p>
 
 
@@ -61,7 +61,7 @@ I started by taking an existing entry and building a header and footer to wrap t
   <pre>
    # ls --full-time
 </pre>
-  
+
 </p>
 
 
@@ -104,7 +104,7 @@ this.id = "" + this.date.getTime();
   <pre>
     mv FileName.xml <code>date --date "23 Dec 2003 10:32:48 MST" +%s</code>000.xml
 </pre>
-  
+
 </p>
 
 

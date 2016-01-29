@@ -2,7 +2,7 @@
 title: What are good ways to get file contents to an EJB?
 author: Tim
 layout: post
-permalink: /2003/12/18/what-are-good-ways-to-get-file-contents-to-an-ejb/
+redirect_from: /2003/12/18/what-are-good-ways-to-get-file-contents-to-an-ejb/
 categories:
   - Perplexed
 tags:

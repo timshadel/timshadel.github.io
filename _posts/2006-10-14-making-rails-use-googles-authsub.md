@@ -2,7 +2,7 @@
 title: 'Making Rails use Google&#8217;s AuthSub'
 author: Tim
 layout: post
-permalink: /2006/10/14/making-rails-use-googles-authsub/
+redirect_from: /2006/10/14/making-rails-use-googles-authsub/
 categories:
   - How-To
 tags:

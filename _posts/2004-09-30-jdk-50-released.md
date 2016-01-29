@@ -2,7 +2,7 @@
 title: JDK 5.0 Released
 author: Tim
 layout: post
-permalink: /2004/09/30/jdk-50-released/
+redirect_from: /2004/09/30/jdk-50-released/
 categories:
   - News
 tags:

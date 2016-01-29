@@ -2,7 +2,7 @@
 title: 'iPhone: Using video more than I expected'
 author: Tim
 layout: post
-permalink: /2007/12/12/iphone-using-video-more-than-i-expected/
+redirect_from: /2007/12/12/iphone-using-video-more-than-i-expected/
 categories:
   - Impressions
 tags:

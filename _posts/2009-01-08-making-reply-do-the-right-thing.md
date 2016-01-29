@@ -2,7 +2,7 @@
 title: Making ‘Reply’ Do the Right Thing
 author: Tim
 layout: post
-permalink: /2009/01/08/making-reply-do-the-right-thing/
+redirect_from: /2009/01/08/making-reply-do-the-right-thing/
 categories:
   - Craftsmanship
   - Featured

@@ -2,7 +2,7 @@
 title: Sweet Looking Headings with CSS
 author: Tim
 layout: post
-permalink: /2007/06/22/text-shadows-with-safari/
+redirect_from: /2007/06/22/text-shadows-with-safari/
 categories:
   - How-To
 tags:

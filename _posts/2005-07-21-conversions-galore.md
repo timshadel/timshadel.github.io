@@ -2,7 +2,7 @@
 title: Conversions Galore!
 author: Tim
 layout: post
-permalink: /2005/07/21/conversions-galore/
+redirect_from: /2005/07/21/conversions-galore/
 categories:
   - News
 tags:

@@ -2,7 +2,7 @@
 title: Automate the Tiny Things
 author: Tim
 layout: post
-permalink: /2007/03/06/automate-the-tiny-things/
+redirect_from: /2007/03/06/automate-the-tiny-things/
 categories:
   - Craftsmanship
 tags:

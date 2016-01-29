@@ -2,7 +2,7 @@
 title: Kid Stuff @ CodeSmack
 author: Tim
 layout: post
-permalink: /2007/05/22/kid-stuff-codesmack/
+redirect_from: /2007/05/22/kid-stuff-codesmack/
 categories:
   - News
 tags:

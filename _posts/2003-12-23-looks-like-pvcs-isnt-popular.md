@@ -2,7 +2,7 @@
 title: 'Looks Like PVCS Isn&#8217;t Popular'
 author: Tim
 layout: post
-permalink: /2003/12/23/looks-like-pvcs-isnt-popular/
+redirect_from: /2003/12/23/looks-like-pvcs-isnt-popular/
 categories:
   - Impressions
 tags:
@@ -18,7 +18,7 @@ Granted, you have to call their sales group to get a login to this demo, but obv
 [Merant Version Manager &#8211; automates common team development tasks, protects code for safe reuse and parallel development, and prevents lost changes and content errors][3]
 
 > **More than source code protection**
-> 
+>
 > Merant Version Manager enables and automates complex team tasks such as parallel development, visual differencing, branching and merging, identification of merge conflicts, promotion levels and team workflow.</p>
 Even the long title (taken directly from the web page) leaves a bad impression of pure sales jargon or a blatant attempt at a high search rank.
 

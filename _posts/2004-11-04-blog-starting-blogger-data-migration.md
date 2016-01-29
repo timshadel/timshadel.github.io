@@ -2,7 +2,7 @@
 title: '[Blog] Starting Blogger data migration'
 author: Tim
 layout: post
-permalink: /2004/11/04/blog-starting-blogger-data-migration/
+redirect_from: /2004/11/04/blog-starting-blogger-data-migration/
 categories:
   - News
 tags:

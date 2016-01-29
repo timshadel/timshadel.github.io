@@ -2,7 +2,7 @@
 title: '[Hibernate] How to setup a bidirectional relationship'
 author: Tim
 layout: post
-permalink: /2005/10/17/hibernate-how-to-setup-a-bidirectional-relationship/
+redirect_from: /2005/10/17/hibernate-how-to-setup-a-bidirectional-relationship/
 categories:
   - How-To
 tags:

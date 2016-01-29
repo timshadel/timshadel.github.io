@@ -2,7 +2,7 @@
 title: Pinpoint error prone areas with log4j
 author: Tim
 layout: post
-permalink: /2007/01/18/pinpoint-error-prone-areas-with-log4j/
+redirect_from: /2007/01/18/pinpoint-error-prone-areas-with-log4j/
 categories:
   - How-To
 tags:

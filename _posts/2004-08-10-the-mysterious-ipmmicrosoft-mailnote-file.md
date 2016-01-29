@@ -2,7 +2,7 @@
 title: 'The Mysterious &#8220;IPM.Microsoft Mail.Note&#8221; File'
 author: Tim
 layout: post
-permalink: /2004/08/10/the-mysterious-ipmmicrosoft-mailnote-file/
+redirect_from: /2004/08/10/the-mysterious-ipmmicrosoft-mailnote-file/
 categories:
   - Perplexed
 tags:
@@ -10,7 +10,7 @@ tags:
   - microsoft
   - solutions
 ---
-My wife has been doing some work for a friend, which has involved some mailing lists and merging. This friend isn&#8217;t very computer savvy, and has obtained these lists from other people lacking in computer knowledge. We have received files in various formats, all with poor field design for this type of work, but tonight was the one that topped them all. 
+My wife has been doing some work for a friend, which has involved some mailing lists and merging. This friend isn&#8217;t very computer savvy, and has obtained these lists from other people lacking in computer knowledge. We have received files in various formats, all with poor field design for this type of work, but tonight was the one that topped them all.
 
 We received a disk with a file named something like `mailing_list.dat`. All attempts to open the file failed. Opening the file in Notepad showed that the file began with this information, including non-printable chars not listed here.
 
@@ -18,11 +18,11 @@ We received a disk with a file named something like `mailing_list.dat`. All atte
 
 ä  è
 € IPM.Microsoft Mail.Note
-</pre></p> 
+</pre></p>
 
 When I got back from work I did some Google digging, and came up with a few potential sites, including one where [Eudora claimed][1]:
 
-> This TNEF information [winmail.dat] is unopenable and irrelevant outside of Outlook. 
+> This TNEF information [winmail.dat] is unopenable and irrelevant outside of Outlook.
 
 But I persisted, annoyed again at Microsoft&#8217;s snub of standards, this time causing my wife&#8217;s confused friend to be unable to open her list file.
 

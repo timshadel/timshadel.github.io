@@ -2,7 +2,7 @@
 title: 'Election Results: Mac over Ubuntu in a landslide'
 author: Tim
 layout: post
-permalink: /2006/11/15/election-results-mac-over-ubuntu-in-a-landslide/
+redirect_from: /2006/11/15/election-results-mac-over-ubuntu-in-a-landslide/
 categories:
   - Impressions
 tags:

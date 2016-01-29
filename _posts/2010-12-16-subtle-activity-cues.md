@@ -2,7 +2,7 @@
 title: Subtle Activity Cues
 author: Tim
 layout: post
-permalink: /2010/12/16/subtle-activity-cues/
+redirect_from: /2010/12/16/subtle-activity-cues/
 categories:
   - Craftsmanship
 tags:

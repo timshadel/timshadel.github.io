@@ -2,7 +2,7 @@
 title: 'JMS Error &#8216;ctor&#8217;'
 author: Tim
 layout: post
-permalink: /2004/08/25/jms-error-ctor/
+redirect_from: /2004/08/25/jms-error-ctor/
 categories:
   - Perplexed
 tags:
@@ -10,9 +10,9 @@ tags:
   - solutions
   - spring
 ---
-I&#8217;m trying out the [Spring JMS support in the 1.1 RC2 release][1]. So far I&#8217;m pretty impressed, but that&#8217;s something I&#8217;ll delve into another time. While I was running my tests from the Eclipse JUnit test runner, I got the following exception: 
+I&#8217;m trying out the [Spring JMS support in the 1.1 RC2 release][1]. So far I&#8217;m pretty impressed, but that&#8217;s something I&#8217;ll delve into another time. While I was running my tests from the Eclipse JUnit test runner, I got the following exception:
 
-<pre>org.springframework.jms.UncategorizedJmsException: 
+<pre>org.springframework.jms.UncategorizedJmsException:
 Uncategorized exception occured during JMS processing; nested exception is javax.jms.JMSException: ctor
 javax.jms.JMSException: ctor
     at com.evermind.server.jms.JMSUtils.makeJMSException(JMSUtils.java:1829)

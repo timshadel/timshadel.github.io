@@ -2,7 +2,7 @@
 title: 'JSF: Leaky Abstractions (Grab a Mop)'
 author: Tim
 layout: post
-permalink: /2006/01/24/jsf-leaky-abstractions-grab-a-mop/
+redirect_from: /2006/01/24/jsf-leaky-abstractions-grab-a-mop/
 enclosure:
   - |
     |

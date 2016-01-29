@@ -2,7 +2,7 @@
 title: OpenSolaris or Ubuntu?
 author: Tim
 layout: post
-permalink: /2007/07/17/opensolaris-or-ubuntu/
+redirect_from: /2007/07/17/opensolaris-or-ubuntu/
 categories:
   - Impressions
 ---

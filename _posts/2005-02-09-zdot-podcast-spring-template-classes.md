@@ -2,7 +2,7 @@
 title: 'Zdot Podcast: Spring Template Classes'
 author: Tim
 layout: post
-permalink: /2005/02/09/zdot-podcast-spring-template-classes/
+redirect_from: /2005/02/09/zdot-podcast-spring-template-classes/
 enclosure:
   - |
     |

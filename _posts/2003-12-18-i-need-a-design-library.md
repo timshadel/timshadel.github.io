@@ -2,7 +2,7 @@
 title: I need a Design Library
 author: Tim
 layout: post
-permalink: /2003/12/18/i-need-a-design-library/
+redirect_from: /2003/12/18/i-need-a-design-library/
 categories:
   - Craftsmanship
 tags:

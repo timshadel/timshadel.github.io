@@ -2,7 +2,7 @@
 title: Email testing may as well be Snailmail
 author: Tim
 layout: post
-permalink: /2003/12/23/email-testing-may-as-well-be-snailmail/
+redirect_from: /2003/12/23/email-testing-may-as-well-be-snailmail/
 categories:
   - Impressions
 tags:

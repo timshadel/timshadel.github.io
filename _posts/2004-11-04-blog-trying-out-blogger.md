@@ -2,7 +2,7 @@
 title: '[Blog] Trying out Blogger'
 author: Tim
 layout: post
-permalink: /2004/11/04/blog-trying-out-blogger/
+redirect_from: /2004/11/04/blog-trying-out-blogger/
 categories:
   - News
 tags:

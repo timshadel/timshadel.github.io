@@ -2,7 +2,7 @@
 title: Gone Camping
 author: Tim
 layout: post
-permalink: /2004/09/04/gone-camping/
+redirect_from: /2004/09/04/gone-camping/
 categories:
   - News
 ---

@@ -2,7 +2,7 @@
 title: 'Design Example: MobileMe Bad Password'
 author: Tim
 layout: post
-permalink: /2010/11/30/design-example-mobileme-bad-password/
+redirect_from: /2010/11/30/design-example-mobileme-bad-password/
 categories:
   - Featured
   - Impressions

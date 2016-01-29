@@ -2,7 +2,7 @@
 title: Campfire for RailsConf 2007
 author: Tim
 layout: post
-permalink: /2007/05/17/campfire-for-railsconf-2007/
+redirect_from: /2007/05/17/campfire-for-railsconf-2007/
 categories:
   - News
 ---
@@ -10,9 +10,9 @@ I setup a Campfire account for my RailsConf 2007 visit. Guest access is on, so c
 
 #### May 17 Morning Tutorials
 
-[Scaling Rails][1]  
-[script.aculo.us][2]  
-[Test Driven Development][3]  
+[Scaling Rails][1]
+[script.aculo.us][2]
+[Test Driven Development][3]
 [JRuby][4]
 
  [1]: http://railsconf2007.campfirenow.com/fc4b5

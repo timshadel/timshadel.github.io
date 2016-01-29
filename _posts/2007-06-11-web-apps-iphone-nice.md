@@ -2,7 +2,7 @@
 title: Web apps + iPhone, Nice
 author: Tim
 layout: post
-permalink: /2007/06/11/web-apps-iphone-nice/
+redirect_from: /2007/06/11/web-apps-iphone-nice/
 categories:
   - Impressions
 tags:

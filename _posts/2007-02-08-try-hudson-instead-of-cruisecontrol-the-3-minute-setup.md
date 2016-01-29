@@ -2,7 +2,7 @@
 title: 'Try Hudson Instead of CruiseControl: The 3 Minute Setup'
 author: Tim
 layout: post
-permalink: /2007/02/08/try-hudson-instead-of-cruisecontrol-the-3-minute-setup/
+redirect_from: /2007/02/08/try-hudson-instead-of-cruisecontrol-the-3-minute-setup/
 categories:
   - Craftsmanship
 ---

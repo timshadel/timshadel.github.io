@@ -2,7 +2,7 @@
 title: New Ant tasks make build reuse a slice of pie
 author: Tim
 layout: post
-permalink: /2003/12/24/new-ant-tasks-make-build-reuse-a-slice-of-pie/
+redirect_from: /2003/12/24/new-ant-tasks-make-build-reuse-a-slice-of-pie/
 categories:
   - Impressions
 ---

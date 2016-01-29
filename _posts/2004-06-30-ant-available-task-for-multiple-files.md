@@ -2,7 +2,7 @@
 title: 'Ant: Available task for multiple files'
 author: Tim
 layout: post
-permalink: /2004/06/30/ant-available-task-for-multiple-files/
+redirect_from: /2004/06/30/ant-available-task-for-multiple-files/
 categories:
   - How-To
 tags:

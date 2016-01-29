@@ -2,7 +2,7 @@
 title: 'Git&#8217;s Coolness'
 author: Tim
 layout: post
-permalink: /2008/04/08/gits-coolness/
+redirect_from: /2008/04/08/gits-coolness/
 categories:
   - Impressions
 tags:
@@ -13,7 +13,7 @@ tags:
   - version control
   - visualization
 ---
-I started to realize how cool `git` is when I saw this:  
+I started to realize how cool `git` is when I saw this:
 ![Visualization of an octopus-style merge with git using gitk.][1]
 
 <!--more-->

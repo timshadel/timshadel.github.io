@@ -2,7 +2,7 @@
 title: Switching the Mic
 author: Tim
 layout: post
-permalink: /2007/09/29/switching-the-mic/
+redirect_from: /2007/09/29/switching-the-mic/
 categories:
   - Impressions
 tags:

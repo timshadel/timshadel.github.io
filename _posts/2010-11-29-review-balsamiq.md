@@ -2,7 +2,7 @@
 title: 'Review: Balsamiq'
 author: Tim
 layout: post
-permalink: /2010/11/29/review-balsamiq/
+redirect_from: /2010/11/29/review-balsamiq/
 categories:
   - Impressions
 tags:

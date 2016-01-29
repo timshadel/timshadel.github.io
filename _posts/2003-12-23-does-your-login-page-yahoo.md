@@ -2,7 +2,7 @@
 title: Does your login page Yahoo?
 author: Tim
 layout: post
-permalink: /2003/12/23/does-your-login-page-yahoo/
+redirect_from: /2003/12/23/does-your-login-page-yahoo/
 categories:
   - Craftsmanship
 ---

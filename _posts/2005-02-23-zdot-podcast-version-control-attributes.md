@@ -2,7 +2,7 @@
 title: 'Zdot Podcast: Version Control Attributes'
 author: Tim
 layout: post
-permalink: /2005/02/23/zdot-podcast-version-control-attributes/
+redirect_from: /2005/02/23/zdot-podcast-version-control-attributes/
 enclosure:
   - |
     |

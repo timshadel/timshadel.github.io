@@ -2,7 +2,7 @@
 title: Watch Out For Exploding Water
 author: Tim
 layout: post
-permalink: /2007/12/10/watch-out-for-exploding-water/
+redirect_from: /2007/12/10/watch-out-for-exploding-water/
 categories:
   - Leftovers
 tags:

@@ -2,7 +2,7 @@
 title: 'Zdot Podcast: Jupiter Review Plugin for Eclipse'
 author: Tim
 layout: post
-permalink: /2005/02/19/zdot-podcast-jupiter-review-plugin-for-eclipse/
+redirect_from: /2005/02/19/zdot-podcast-jupiter-review-plugin-for-eclipse/
 enclosure:
   - |
     |

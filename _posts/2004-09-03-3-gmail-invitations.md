@@ -2,7 +2,7 @@
 title: 3 GMail Invitations
 author: Tim
 layout: post
-permalink: /2004/09/03/3-gmail-invitations/
+redirect_from: /2004/09/03/3-gmail-invitations/
 categories:
   - News
 ---

@@ -2,7 +2,7 @@
 title: 'Don&#8217;t lose this'
 author: Tim
 layout: post
-permalink: /2003/12/29/dont-lose-this/
+redirect_from: /2003/12/29/dont-lose-this/
 categories:
   - Craftsmanship
 ---

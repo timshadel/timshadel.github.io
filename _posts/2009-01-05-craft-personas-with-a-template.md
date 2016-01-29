@@ -2,7 +2,7 @@
 title: Craft Personas with a Template
 author: Tim
 layout: post
-permalink: /2009/01/05/craft-personas-with-a-template/
+redirect_from: /2009/01/05/craft-personas-with-a-template/
 categories:
   - Featured
   - How-To
@@ -38,7 +38,7 @@ He went into lots more detail, talking through the anatomy of a story, how to av
   I&#8217;d love to hear about your use or abuse of personas in your planning process, and ways that you&#8217;ve made it fun and practical to know your real customers.
 </p>
 
-[![Persona preview][8]][9]  
+[![Persona preview][8]][9]
 [Download iWork Pages Template][9] from GitHub project.
 
  [1]: http://en.wikipedia.org/wiki/Personas

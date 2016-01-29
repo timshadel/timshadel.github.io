@@ -2,7 +2,7 @@
 title: '[Eclipse] Superclass does not implement the &#8216;junit.framework.Test&#8217; interface'
 author: Tim
 layout: post
-permalink: /2004/08/31/eclipse-superclass-does-not-implement-the-junitframeworktest-interface/
+redirect_from: /2004/08/31/eclipse-superclass-does-not-implement-the-junitframeworktest-interface/
 categories:
   - Perplexed
 tags:
@@ -10,7 +10,7 @@ tags:
   - junit
   - solutions
 ---
-I ran into this really strange error the other day while using Eclipse. I had been creating some JUnit tests, and everything was going just fine. Then I tried to create another one, and I saw the dialog below with the error message, *Superclass does not implement the &#8216;junit.framework.Test&#8217; interface*. 
+I ran into this really strange error the other day while using Eclipse. I had been creating some JUnit tests, and everything was going just fine. Then I tried to create another one, and I saw the dialog below with the error message, *Superclass does not implement the &#8216;junit.framework.Test&#8217; interface*.
 
 ![Eclipse 'Create JUnit Test Case' error screenshot][1]
 

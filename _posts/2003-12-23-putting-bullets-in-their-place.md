@@ -2,7 +2,7 @@
 title: Putting Bullets In Their Place
 author: Tim
 layout: post
-permalink: /2003/12/23/putting-bullets-in-their-place/
+redirect_from: /2003/12/23/putting-bullets-in-their-place/
 categories:
   - Craftsmanship
 ---

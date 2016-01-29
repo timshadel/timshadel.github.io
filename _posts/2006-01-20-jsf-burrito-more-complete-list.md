@@ -2,7 +2,7 @@
 title: 'JSF Burrito: More Complete List'
 author: Tim
 layout: post
-permalink: /2006/01/20/jsf-burrito-more-complete-list/
+redirect_from: /2006/01/20/jsf-burrito-more-complete-list/
 categories:
   - Impressions
 tags:
@@ -27,7 +27,7 @@ I pretend no prophesy of doom and gloom for JSF, on the contrary I believe many 
   * The RenderKit distances the HTML far from the page definition, and makes editing it prohibitively difficult. Looks like the designers (didn&#8217;t optimize for the common case (HTML) and missed out on reading the Information Architecture and Web Standards community stuff. Otherwise they&#8217;d know how important it is to develop a semantically meaninful HTML structure based on your site&#8217;s content. They&#8217;d have realized that this means that nearly everyone should conciously design their HTML. Instead they made this important step MUCH harder. [read [this][1], and substitute the concept of *rendering* for *messaging*]
   * AJAX components are coming, but it&#8217;s much more difficult to integrate it on your own. A few challenges: you don&#8217;t know what the DOM looks like (for sure), so it&#8217;s hard to manipulate it. DOM elements added to a table on the client side won&#8217;t have the funky JSF generated ids. You no longer design forms, so you really don&#8217;t know what values get sent to the server, consequently how can you design a JavaScript function to asynchronously submit a form with the values you need and then rewrite a portion of the DOM? You just can&#8217;t. JSF &#8220;mercifully&#8221; hides these things from you, blissfully rendering your experience useless and requiring you to submit to the all knowing component provider.
   * The client side validation available from our components isn&#8217;t sufficient.
-  * Existing JSP tags are difficult or impossible to use.[this may just be our experience we haven&#8217;t spent a lot of time on it- but trying to integrate normal web cycles into the jsf lifecycle has been difficult]  
+  * Existing JSP tags are difficult or impossible to use.[this may just be our experience we haven&#8217;t spent a lot of time on it- but trying to integrate normal web cycles into the jsf lifecycle has been difficult]
     Their existence is now just salt in a wound. There are many hundreds of JSP tags, and among them are a few really good ones. We&#8217;ve made several attempts to integrate various tag libraries, but none of them have proven worth the effort.
   * Since JSP&#8217;s no longer hold HTML, it&#8217;s much more difficult to look at a page definition and understand what&#8217;s going on. Good tool support here is essential, but sorely lacking or prohibitively expensive.
   * Templating seemed difficult to do with JSF [our difficulty using sitemesh may have been due to our design choices, but at the time others were reporting difficulty as well]. In the end, we (like many others) still use Tiles which is decidedly Request-Response oriented.

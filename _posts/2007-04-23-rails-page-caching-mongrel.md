@@ -2,7 +2,7 @@
 title: Rails Page Caching + Mongrel
 author: Tim
 layout: post
-permalink: /2007/04/23/rails-page-caching-mongrel/
+redirect_from: /2007/04/23/rails-page-caching-mongrel/
 categories:
   - Perplexed
 tags:

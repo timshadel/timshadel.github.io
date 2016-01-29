@@ -2,7 +2,7 @@
 title: Calm before the storm
 author: Tim
 layout: post
-permalink: /2007/01/17/calm-before-the-storm/
+redirect_from: /2007/01/17/calm-before-the-storm/
 categories:
   - Craftsmanship
 tags:

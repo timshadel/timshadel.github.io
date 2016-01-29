@@ -2,7 +2,7 @@
 title: Podcast files hosted at archive.org
 author: Tim
 layout: post
-permalink: /2006/07/10/podcast-files-hosted-at-archiveorg/
+redirect_from: /2006/07/10/podcast-files-hosted-at-archiveorg/
 categories:
   - News
 tags:

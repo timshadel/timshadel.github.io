@@ -2,7 +2,7 @@
 title: 'Zdot Podcast: Spring Transactions and Interception'
 author: Tim
 layout: post
-permalink: /2005/02/12/zdot-podcast-spring-transactions-and-interception/
+redirect_from: /2005/02/12/zdot-podcast-spring-transactions-and-interception/
 enclosure:
   - |
     |

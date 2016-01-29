@@ -2,7 +2,7 @@
 title: 'Ah.  Some relaxation.'
 author: Tim
 layout: post
-permalink: /2004/01/01/ah-some-relaxation/
+redirect_from: /2004/01/01/ah-some-relaxation/
 categories:
   - Leftovers
 ---

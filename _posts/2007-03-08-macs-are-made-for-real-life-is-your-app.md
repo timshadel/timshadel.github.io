@@ -2,7 +2,7 @@
 title: 'Macs Are Made For Real Life &#8211; Is Your App?'
 author: Tim
 layout: post
-permalink: /2007/03/08/macs-are-made-for-real-life-is-your-app/
+redirect_from: /2007/03/08/macs-are-made-for-real-life-is-your-app/
 categories:
   - Impressions
 ---

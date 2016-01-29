@@ -2,7 +2,7 @@
 title: The $100 Contest for Ruby Blogging
 author: Tim
 layout: post
-permalink: /2006/08/18/the-100-contest-for-ruby-blogging/
+redirect_from: /2006/08/18/the-100-contest-for-ruby-blogging/
 categories:
   - News
 tags:

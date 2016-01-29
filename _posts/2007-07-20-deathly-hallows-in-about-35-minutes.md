@@ -2,7 +2,7 @@
 title: Deathly Hallows in about 35 minutes
 author: Tim
 layout: post
-permalink: /2007/07/20/deathly-hallows-in-about-35-minutes/
+redirect_from: /2007/07/20/deathly-hallows-in-about-35-minutes/
 categories:
   - Leftovers
 tags:

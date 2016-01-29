@@ -2,7 +2,7 @@
 title: 'Zdot Podcast: Why Subversion Rocks'
 author: Tim
 layout: post
-permalink: /2005/02/26/zdot-podcast-why-subversion-rocks/
+redirect_from: /2005/02/26/zdot-podcast-why-subversion-rocks/
 enclosure:
   - |
     |

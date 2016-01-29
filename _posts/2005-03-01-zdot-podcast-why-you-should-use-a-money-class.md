@@ -2,7 +2,7 @@
 title: 'Zdot Podcast: Why You Should Use a Money Class'
 author: Tim
 layout: post
-permalink: /2005/03/01/zdot-podcast-why-you-should-use-a-money-class/
+redirect_from: /2005/03/01/zdot-podcast-why-you-should-use-a-money-class/
 enclosure:
   - |
     |

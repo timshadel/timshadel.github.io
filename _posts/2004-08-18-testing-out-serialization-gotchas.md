@@ -2,7 +2,7 @@
 title: Testing Out Serialization Gotchas
 author: Tim
 layout: post
-permalink: /2004/08/18/testing-out-serialization-gotchas/
+redirect_from: /2004/08/18/testing-out-serialization-gotchas/
 categories:
   - How-To
 tags:

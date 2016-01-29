@@ -2,7 +2,7 @@
 title: 'Ahh.  EJB testing.  Let the discussion commence!'
 author: Tim
 layout: post
-permalink: /2003/12/22/ahh-ejb-testing-let-the-discussion-commence/
+redirect_from: /2003/12/22/ahh-ejb-testing-let-the-discussion-commence/
 categories:
   - Impressions
 tags:

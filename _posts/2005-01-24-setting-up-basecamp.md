@@ -2,7 +2,7 @@
 title: Setting up Basecamp
 author: Tim
 layout: post
-permalink: /2005/01/24/setting-up-basecamp/
+redirect_from: /2005/01/24/setting-up-basecamp/
 categories:
   - Impressions
 tags:

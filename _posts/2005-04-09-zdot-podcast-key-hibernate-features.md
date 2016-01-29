@@ -2,7 +2,7 @@
 title: 'Zdot Podcast: Key Hibernate Features'
 author: Tim
 layout: post
-permalink: /2005/04/09/zdot-podcast-key-hibernate-features/
+redirect_from: /2005/04/09/zdot-podcast-key-hibernate-features/
 enclosure:
   - |
     |

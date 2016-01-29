@@ -2,7 +2,7 @@
 title: Spring and Dependencies Podcast
 author: Tim
 layout: post
-permalink: /2005/02/07/spring-and-dependencies-podcast/
+redirect_from: /2005/02/07/spring-and-dependencies-podcast/
 enclosure:
   - |
     |

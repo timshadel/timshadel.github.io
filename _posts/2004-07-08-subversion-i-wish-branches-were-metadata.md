@@ -2,7 +2,7 @@
 title: '[Subversion] I wish branches were metadata'
 author: Tim
 layout: post
-permalink: /2004/07/08/subversion-i-wish-branches-were-metadata/
+redirect_from: /2004/07/08/subversion-i-wish-branches-were-metadata/
 categories:
   - Impressions
 tags:

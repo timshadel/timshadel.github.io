@@ -2,7 +2,7 @@
 title: 'JSF: The 7-Layer Burrito I Won&#8217;t Eat Again'
 author: Tim
 layout: post
-permalink: /2006/01/19/jsf-the-7-layer-burrito-i-wont-eat-again/
+redirect_from: /2006/01/19/jsf-the-7-layer-burrito-i-wont-eat-again/
 enclosure:
   - |
     |

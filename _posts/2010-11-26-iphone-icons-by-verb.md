@@ -2,7 +2,7 @@
 title: iPhone Icons By Verb
 author: Tim
 layout: post
-permalink: /2010/11/26/iphone-icons-by-verb/
+redirect_from: /2010/11/26/iphone-icons-by-verb/
 categories:
   - Leftovers
 tags:

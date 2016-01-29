@@ -2,7 +2,7 @@
 title: 'Zdot Podcast: Eclipse 3.1 Release'
 author: Tim
 layout: post
-permalink: /2005/06/29/zdot-podcast-eclipse-31-release/
+redirect_from: /2005/06/29/zdot-podcast-eclipse-31-release/
 enclosure:
   - |
     |

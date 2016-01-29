@@ -2,7 +2,7 @@
 title: 'JSF: RenderKit Blues'
 author: Tim
 layout: post
-permalink: /2006/02/03/jsf-renderkit-blues/
+redirect_from: /2006/02/03/jsf-renderkit-blues/
 enclosure:
   - |
     |

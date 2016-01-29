@@ -2,7 +2,7 @@
 title: 'Zdot Podcast: Why You Need Hibernate'
 author: Tim
 layout: post
-permalink: /2005/04/05/zdot-podcast-why-you-need-hibernate/
+redirect_from: /2005/04/05/zdot-podcast-why-you-need-hibernate/
 enclosure:
   - |
     |

@@ -2,7 +2,7 @@
 title: 'Selenium IDE: Super Easy Acceptance Tests'
 author: Tim
 layout: post
-permalink: /2006/02/24/selenium-ide-super-easy-acceptance-tests/
+redirect_from: /2006/02/24/selenium-ide-super-easy-acceptance-tests/
 categories:
   - How-To
 tags:
@@ -12,13 +12,13 @@ tags:
   - selenium-ide
   - testing
 ---
-[Selenium][1] is an excellent open source tool to test your website automatically, right from your browser. The test scripts are written as plain HTML files, which makes them easy to read, edit, and understand. BUT, it&#8217;s even easier than that. There&#8217;s an IDE for developing these tests. 
+[Selenium][1] is an excellent open source tool to test your website automatically, right from your browser. The test scripts are written as plain HTML files, which makes them easy to read, edit, and understand. BUT, it&#8217;s even easier than that. There&#8217;s an IDE for developing these tests.
 
-We used to use [a different tool][2], but we found one that&#8217;s *MUCH* better. It&#8217;s called [Selenium IDE][3]. It&#8217;s a plugin to [Mozilla Firefox][4]. You can watch [this video][5] about how easy it is to record Selenium tests with Selenium IDE. 
+We used to use [a different tool][2], but we found one that&#8217;s *MUCH* better. It&#8217;s called [Selenium IDE][3]. It&#8217;s a plugin to [Mozilla Firefox][4]. You can watch [this video][5] about how easy it is to record Selenium tests with Selenium IDE.
 
 #### Install Selenium IDE
 
-Once you&#8217;re ready to start, you can [download Selenium IDE][6]. (When you click, you&#8217;ll see a yellow bar near the top of the page that says Firefox requires you to allow Extensions to be installed from openqa.org. Click the `Edit Options...` button to allow the installation.) 
+Once you&#8217;re ready to start, you can [download Selenium IDE][6]. (When you click, you&#8217;ll see a yellow bar near the top of the page that says Firefox requires you to allow Extensions to be installed from openqa.org. Click the `Edit Options...` button to allow the installation.)
 
 #### Glimpse the Future
 

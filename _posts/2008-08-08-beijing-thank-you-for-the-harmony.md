@@ -2,7 +2,7 @@
 title: 北京, thank you for the 和
 author: Tim
 layout: post
-permalink: /2008/08/08/beijing-thank-you-for-the-harmony/
+redirect_from: /2008/08/08/beijing-thank-you-for-the-harmony/
 categories:
   - Leftovers
 ---

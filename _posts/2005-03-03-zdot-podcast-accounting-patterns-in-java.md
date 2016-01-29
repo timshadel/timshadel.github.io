@@ -2,7 +2,7 @@
 title: 'Zdot Podcast: Accounting Patterns in Java'
 author: Tim
 layout: post
-permalink: /2005/03/03/zdot-podcast-accounting-patterns-in-java/
+redirect_from: /2005/03/03/zdot-podcast-accounting-patterns-in-java/
 enclosure:
   - |
     |

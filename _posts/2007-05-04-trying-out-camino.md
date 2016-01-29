@@ -2,7 +2,7 @@
 title: Trying out Camino
 author: Tim
 layout: post
-permalink: /2007/05/04/trying-out-camino/
+redirect_from: /2007/05/04/trying-out-camino/
 categories:
   - Impressions
 tags:

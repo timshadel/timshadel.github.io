@@ -2,7 +2,7 @@
 title: Standardizing Eclipse Plugins, Take 2
 author: Tim
 layout: post
-permalink: /2005/07/04/standardizing-eclipse-plugins-take-2/
+redirect_from: /2005/07/04/standardizing-eclipse-plugins-take-2/
 enclosure:
   - |
     |

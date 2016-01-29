@@ -2,7 +2,7 @@
 title: Funny Firey ForecastFox Figure
 author: Tim
 layout: post
-permalink: /2005/06/28/funny-firey-forecastfox-figure/
+redirect_from: /2005/06/28/funny-firey-forecastfox-figure/
 categories:
   - Leftovers
 tags:

@@ -2,7 +2,7 @@
 title: Moving to WordPress
 author: Tim
 layout: post
-permalink: /2005/01/22/moving-to-wordpress/
+redirect_from: /2005/01/22/moving-to-wordpress/
 categories:
   - News
 tags:

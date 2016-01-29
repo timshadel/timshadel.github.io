@@ -2,7 +2,7 @@
 title: '[Selfish] Google should have a public issue tracker'
 author: Tim
 layout: post
-permalink: /2004/06/30/selfish-google-should-have-a-public-issue-tracker/
+redirect_from: /2004/06/30/selfish-google-should-have-a-public-issue-tracker/
 categories:
   - Craftsmanship
 tags:

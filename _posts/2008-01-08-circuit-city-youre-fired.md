@@ -2,7 +2,7 @@
 title: 'Circuit City, you&#8217;re fired.'
 author: Tim
 layout: post
-permalink: /2008/01/08/circuit-city-youre-fired/
+redirect_from: /2008/01/08/circuit-city-youre-fired/
 categories:
   - Impressions
 tags:

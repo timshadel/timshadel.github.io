@@ -3,7 +3,7 @@ title: Modular Builds with Maven
 author: Tim
 excerpt: "Maven is an interesting tool.  It can be both wonderful and viciously annoying.  Today's show discusses one of its strengths - modularizing the build process.  I give a brief overview of the basic components of our build system, which includes CruiseControl and how the pieces depend upon each other."
 layout: post
-permalink: /2005/10/13/modular-builds-with-maven/
+redirect_from: /2005/10/13/modular-builds-with-maven/
 enclosure:
   - |
     |

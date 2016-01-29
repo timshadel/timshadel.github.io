@@ -2,7 +2,7 @@
 title: PDF printer
 author: Tim
 layout: post
-permalink: /2005/01/25/pdf-printer/
+redirect_from: /2005/01/25/pdf-printer/
 categories:
   - Impressions
 tags:

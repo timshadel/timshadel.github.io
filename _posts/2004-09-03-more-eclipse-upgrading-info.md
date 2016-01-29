@@ -2,7 +2,7 @@
 title: More Eclipse Upgrading Info
 author: Tim
 layout: post
-permalink: /2004/09/03/more-eclipse-upgrading-info/
+redirect_from: /2004/09/03/more-eclipse-upgrading-info/
 categories:
   - Craftsmanship
 tags:

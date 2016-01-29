@@ -2,7 +2,7 @@
 title: Congratulations, you are not asleep at the wheel!!!
 author: Tim
 layout: post
-permalink: /2007/06/11/congratulations-you-are-not-asleep-at-the-wheel/
+redirect_from: /2007/06/11/congratulations-you-are-not-asleep-at-the-wheel/
 categories:
   - Impressions
 ---

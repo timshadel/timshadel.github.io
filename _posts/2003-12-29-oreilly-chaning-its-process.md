@@ -2,7 +2,7 @@
 title: 'O&#8217;Reilly chaning its process?'
 author: Tim
 layout: post
-permalink: /2003/12/29/oreilly-chaning-its-process/
+redirect_from: /2003/12/29/oreilly-chaning-its-process/
 categories:
   - Craftsmanship
 tags:

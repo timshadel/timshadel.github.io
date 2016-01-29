@@ -2,7 +2,7 @@
 title: Strange DBUnit Loading Problem
 author: Tim
 layout: post
-permalink: /2005/07/11/strange-dbunit-loading-problem/
+redirect_from: /2005/07/11/strange-dbunit-loading-problem/
 categories:
   - Perplexed
 tags:
@@ -28,7 +28,7 @@ Another while of head-banging and incantations leads nowhere. So I decided to sw
 
 <p>
   </pre>
-  
+
 </p>
 
 
@@ -75,7 +75,7 @@ Another while of head-banging and incantations leads nowhere. So I decided to sw
     <chart ID='18' CHART_NUMBER='12210' PARENT_ID='17' DESCRIPTION='Sub sub chart 2' OPEN_DATE='2004-01-01 00:00:00.0'/>
   </dataset>
   </pre>
-  
+
 </p>
 
 

@@ -2,7 +2,7 @@
 title: How to Configure Entourage Rules to Send All Appointments to a Folder
 author: Tim
 layout: post
-permalink: /2008/02/28/how-to-configure-entourage-rules-to-send-all-appointments-to-a-folder/
+redirect_from: /2008/02/28/how-to-configure-entourage-rules-to-send-all-appointments-to-a-folder/
 categories:
   - How-To
 tags:

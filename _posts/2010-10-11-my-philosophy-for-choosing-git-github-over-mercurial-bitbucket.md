@@ -2,7 +2,7 @@
 title: 'My Philosophy for Choosing git &#038; GitHub over Mercurial &#038; BitBucket'
 author: Tim
 layout: post
-permalink: /2010/10/11/my-philosophy-for-choosing-git-github-over-mercurial-bitbucket/
+redirect_from: /2010/10/11/my-philosophy-for-choosing-git-github-over-mercurial-bitbucket/
 categories:
   - Craftsmanship
   - Featured
@@ -21,17 +21,17 @@ In short, I choose git and github based on my beliefs about software development
 
 ## As a software craftsman, I believe in sharp tools
 
-> Tools amplify your talent. The better your tools, and the better you know how to use them, the more productive you can be. [&#8230;] 
+> Tools amplify your talent. The better your tools, and the better you know how to use them, the more productive you can be. [&#8230;]
 
-> Many new programmers make the mistake of adopting a single power tool, such as a particular integrated development environment (IDE), and never leave its cozy interface. This really is a mistake. We need to be comfortable beyond the limits imposed by an IDE. The only way to do this is to keep the basic tool set sharp and ready to use.  
-> &#8211; The Pragmatic Programmer, Chapter 3 
+> Many new programmers make the mistake of adopting a single power tool, such as a particular integrated development environment (IDE), and never leave its cozy interface. This really is a mistake. We need to be comfortable beyond the limits imposed by an IDE. The only way to do this is to keep the basic tool set sharp and ready to use.
+> &#8211; The Pragmatic Programmer, Chapter 3
 
 <!--more-->
 
 While Mercurial provides a command-line tool, it&#8217;s interface is limited. Git provides a more rich set of tools for me to poke through my versioned set of source code. Doing so gives me powerful ways to solve unanticipated problems that will be of great importance at some point in the future. Choosing git now lets us prepare for those moments when performance of a difficult operation will be required.
 
-> We need to let our craftsmen work with sharp tools, rather than protect them from themselves.  
-> &#8211; Bruce Tate, author and programmer 
+> We need to let our craftsmen work with sharp tools, rather than protect them from themselves.
+> &#8211; Bruce Tate, author and programmer
 
 ## I believe in people over process
 
@@ -74,7 +74,7 @@ In Chapter 3 of the classic book [Programming Pearls][3], Jon Bentley covers dat
 Git&#8217;s simplistic data structure allowed its initial approach to version a source tree to grow in unexpected ways:
 
   * Its compression algorithm is better than any other tool because it is not compressing data structured around a filename.
-  * It was trivial to take advantage of the OS filesystem cache by allowing an in-place switch of a working copy from one branch to another by realizing that each local branch is a pointer to into its blob graph. 
+  * It was trivial to take advantage of the OS filesystem cache by allowing an in-place switch of a working copy from one branch to another by realizing that each local branch is a pointer to into its blob graph.
   * The above makes it trivial to add on the concepts of remote references, making it possible for developers to see locally (without a network) the evolution of a remote repository. Such is not available in Mercurial. The core data structure of Git made this evolutionary functionality possible.
   * By focusing around a specific data structure and following the UNIX tradition of composable programs, git evolved a structure allowing for custom pluggable merge and difference drivers. This, combined with the simple data structure giving a list of parents instead of exactly two, produced the octopus merge tool that can take many separate branches and merge them all. This tool seems most often used in larger projects, and I anticipate it may prove useful for us.
 

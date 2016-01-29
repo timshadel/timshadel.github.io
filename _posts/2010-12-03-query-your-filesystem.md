@@ -2,7 +2,7 @@
 title: Query Your Filesystem
 author: Tim
 layout: post
-permalink: /2010/12/03/query-your-filesystem/
+redirect_from: /2010/12/03/query-your-filesystem/
 categories:
   - Leftovers
 ---

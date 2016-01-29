@@ -2,7 +2,7 @@
 title: More Ruby Exporting of Groupwise to iCal
 author: Tim
 layout: post
-permalink: /2007/01/19/more-ruby-exporting-of-groupwise-to-ical/
+redirect_from: /2007/01/19/more-ruby-exporting-of-groupwise-to-ical/
 categories:
   - How-To
 ---

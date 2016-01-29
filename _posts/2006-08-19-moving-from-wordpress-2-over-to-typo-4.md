@@ -2,7 +2,7 @@
 title: Moving from WordPress 2 over to Typo 4
 author: Tim
 layout: post
-permalink: /2006/08/19/moving-from-wordpress-2-over-to-typo-4/
+redirect_from: /2006/08/19/moving-from-wordpress-2-over-to-typo-4/
 categories:
   - News
 tags:

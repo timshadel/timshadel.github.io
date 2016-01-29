@@ -2,7 +2,7 @@
 title: 'Design Freedom: Challenge Barriers'
 author: Tim
 layout: post
-permalink: /2005/12/02/design-freedom-challenge-barriers/
+redirect_from: /2005/12/02/design-freedom-challenge-barriers/
 categories:
   - Craftsmanship
 tags:

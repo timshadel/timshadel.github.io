@@ -2,7 +2,7 @@
 title: Clean builds are possible
 author: Tim
 layout: post
-permalink: /2005/12/19/clean-builds-are-possible/
+redirect_from: /2005/12/19/clean-builds-are-possible/
 categories:
   - Craftsmanship
 ---

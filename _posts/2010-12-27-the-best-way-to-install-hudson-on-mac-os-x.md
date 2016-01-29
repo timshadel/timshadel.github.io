@@ -2,9 +2,8 @@
 title: The Best Way to Install Hudson on Mac OS X
 author: Tim
 layout: post
-permalink: /2010/12/27/the-best-way-to-install-hudson-on-mac-os-x/
+redirect_from: /2010/12/27/the-best-way-to-install-hudson-on-mac-os-x/
 categories:
-  - Featured
   - How-To
 tags:
   - build
@@ -20,7 +19,7 @@ tags:
 For the short-attention spans (like mine):
 
     brew install hudson
-    
+
 
 OK. <ins datetime="2010-12-28T03:10:36+00:00">That should work now.</ins> <del datetime="2010-12-28T03:10:36+00:00">That may not work&#8230;yet. There are details after the jump for those who don&#8217;t want to wait for <a href="https://github.com/mxcl/homebrew/pull/3706">the pull request</a> to go through.</del> Oh, and read the directions after running that command to get it to launch automatically.
 
@@ -53,7 +52,7 @@ Notice that if my pull request gets merged in soon, the first part just drops of
 and the bottom two are given to you when you run the first one. So in the end, all you need is
 
     brew install hudson
-    
+
 
 Which is where we started&#8230; Merry Christmas, and Happy Building on your Mac!
 

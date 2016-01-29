@@ -2,7 +2,7 @@
 title: What to use instead of JSF
 author: Tim
 layout: post
-permalink: /2006/02/15/what-to-use-instead-of-jsf/
+redirect_from: /2006/02/15/what-to-use-instead-of-jsf/
 categories:
   - Impressions
 tags:

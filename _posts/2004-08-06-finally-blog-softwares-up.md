@@ -2,7 +2,7 @@
 title: 'Finally! Blog software&#8217;s up.'
 author: Tim
 layout: post
-permalink: /2004/08/06/finally-blog-softwares-up/
+redirect_from: /2004/08/06/finally-blog-softwares-up/
 categories:
   - News
 tags:

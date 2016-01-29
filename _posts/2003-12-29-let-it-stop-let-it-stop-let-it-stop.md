@@ -2,7 +2,7 @@
 title: Let it Stop, Let it Stop, Let it STOP!
 author: Tim
 layout: post
-permalink: /2003/12/29/let-it-stop-let-it-stop-let-it-stop/
+redirect_from: /2003/12/29/let-it-stop-let-it-stop-let-it-stop/
 categories:
   - Leftovers
 ---

@@ -2,7 +2,7 @@
 title: Which RubyGems are you sporting?
 author: Tim
 layout: post
-permalink: /2007/02/14/which-rubygems-are-you-sporting/
+redirect_from: /2007/02/14/which-rubygems-are-you-sporting/
 categories:
   - Craftsmanship
 tags:

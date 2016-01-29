@@ -2,7 +2,7 @@
 title: Flashy Updates
 author: Tim
 layout: post
-permalink: /2003/12/23/flashy-updates/
+redirect_from: /2003/12/23/flashy-updates/
 categories:
   - Impressions
 tags:

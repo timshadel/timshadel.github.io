@@ -2,7 +2,7 @@
 title: Customize Rails Validation HTML Using Hpricot
 author: Tim
 layout: post
-permalink: /2007/02/06/customize-rails-validation-html-using-hpricot/
+redirect_from: /2007/02/06/customize-rails-validation-html-using-hpricot/
 categories:
   - How-To
 ---

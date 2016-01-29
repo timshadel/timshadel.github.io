@@ -2,7 +2,7 @@
 title: Juice Goes Django
 author: Tim
 layout: post
-permalink: /2007/05/04/juice-goes-django/
+redirect_from: /2007/05/04/juice-goes-django/
 categories:
   - Craftsmanship
 ---

@@ -2,7 +2,7 @@
 title: Knoppix Slashdot Discussion
 author: Tim
 layout: post
-permalink: /2004/01/05/knoppix-slashdot-discussion/
+redirect_from: /2004/01/05/knoppix-slashdot-discussion/
 categories:
   - Craftsmanship
 ---

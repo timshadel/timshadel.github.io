@@ -2,7 +2,7 @@
 title: Unit Testing Your Database Code with Hibernate and Spring
 author: Tim
 layout: post
-permalink: /2005/07/21/unit-testing-your-database-code-with-hibernate-and-spring/
+redirect_from: /2005/07/21/unit-testing-your-database-code-with-hibernate-and-spring/
 enclosure:
   - |
     |

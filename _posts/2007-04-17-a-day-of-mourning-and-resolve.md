@@ -2,7 +2,7 @@
 title: A Day Of Mourning And Resolve
 author: Tim
 layout: post
-permalink: /2007/04/17/a-day-of-mourning-and-resolve/
+redirect_from: /2007/04/17/a-day-of-mourning-and-resolve/
 categories:
   - Leftovers
 ---

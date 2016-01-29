@@ -2,7 +2,7 @@
 title: Busy Hacking Things Together
 author: Tim
 layout: post
-permalink: /2007/04/03/busy-hacking-things-together/
+redirect_from: /2007/04/03/busy-hacking-things-together/
 enclosure:
   - |
     http://pcast.scribestudio.com/media_library_content/56930/9386/sound/Paul_Grahame_Keynote_Address.mp3
