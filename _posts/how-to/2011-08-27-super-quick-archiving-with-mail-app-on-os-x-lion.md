@@ -23,6 +23,8 @@ First, open up *System Preferences*.
 
 [<img src="http://timshadel.com/wp-content/uploads/2011/08/SystemPrefs.png" alt="" title="System Preferences" width="575" class="aligncenter size-full wp-image-358" />][1]
 
+ [1]: http://timshadel.com/wp-content/uploads/2011/08/SystemPrefs.png
+
 <!--more-->
 
 Next, go into the `Keyboard PrefPane`. Select the `Keyboard Shortcuts` tab near the top.
@@ -51,7 +53,6 @@ With that set, I can fly through my Inbox deleting and archiving as fast as poss
 
 Processing email on my iPhone is just a losing battle after having this setup. Now go on. Get going on it. You&#8217;ll feel like a ninja.
 
- [1]: http://timshadel.com/wp-content/uploads/2011/08/SystemPrefs.png
  [2]: http://timshadel.com/wp-content/uploads/2011/08/KeyboardPrefPane.png
  [3]: http://timshadel.com/wp-content/uploads/2011/08/NewShortcutKey.png
  [4]: http://timshadel.com/wp-content/uploads/2011/08/MailArchiveMenuItem.png
