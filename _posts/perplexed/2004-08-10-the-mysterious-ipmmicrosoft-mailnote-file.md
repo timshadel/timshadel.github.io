@@ -17,7 +17,7 @@ We received a disk with a file named something like `mailing_list.dat`. All atte
 
 ä  è
 € IPM.Microsoft Mail.Note
-</pre></p>
+</pre>
 
 When I got back from work I did some Google digging, and came up with a few potential sites, including one where [Eudora claimed][1]:
 
