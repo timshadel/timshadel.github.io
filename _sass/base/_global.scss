@@ -105,8 +105,11 @@ p code {
   padding: 0.2em 0.3em;
   border-radius: 0.3em;
 }
-pre code {
-  display: inline-block;
+pre {
+  word-break: normal;
+  code {
+    display: inline-block;
+  }
 }
 blockquote.pullQuote p {
   line-height: 1.5;
