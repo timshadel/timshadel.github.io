@@ -17,6 +17,8 @@ I had that need again today.
 
 I&#8217;ve always used `md5sum` on Linux. `sudo port search md5sum` was a bust. I Googled around. I figured I&#8217;d just have to find the package that contains `md5sum` and `sudo port install [package]`. No dice. Nothing promising for miles around, or at least through page 5 of the Google results.
 
+ [1]: http://timshadel.com/2006/11/15/election-results-mac-over-ubuntu-in-a-landslide/
+
 <!--more-->
 
 Eventually I landed on [Wikipedia&#8217;s md5sum page][2]. Then a flood of vague memories hit me. Macs have a similar program, but it&#8217;s named `md5` and its output formatting is slightly different (but the calculated hash is the same). It had been ages since I had discovered this, and I had totally forgotten.
@@ -31,5 +33,4 @@ Maybe there really is a fabled `md5sum` for Mac, but this is good enough for me.
 
 P.S. the `md5` man page on my Mac shows it to be part of `openssl`, just in case you wondered.
 
- [1]: http://timshadel.com/2006/11/15/election-results-mac-over-ubuntu-in-a-landslide/
  [2]: http://en.wikipedia.org/wiki/Md5sum

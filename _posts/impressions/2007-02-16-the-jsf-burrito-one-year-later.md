@@ -22,6 +22,10 @@ It&#8217;s hard to believe that it&#8217;s been a year since my &#8220;burrito&#
 
 Have you ever skipped out on a movie that was popular? Decided not to see it because it either didn&#8217;t fit your taste or didn&#8217;t mesh with your life in some other way? I have. I usually look back later on without regret. That&#8217;s the way I feel looking back at JSF a year later, but let give you some details.
 
+ [1]: http://timshadel.com/2006/01/19/jsf-the-7-layer-burrito-i-wont-eat-again/
+ [2]: http://timshadel.com/2006/01/24/jsf-leaky-abstractions-grab-a-mop/
+ [3]: http://timshadel.com/2006/02/03/jsf-renderkit-blues/
+
 <!--more-->
 
 I&#8217;ve changed organizations and roles in this last year. At my old place, we continued to use JSF through the time I left. For a couple months at this new place I worked as a Senior Developer on different team, before being asked to step in as the Manager for my current team. During that time, the team was just starting a new project. They had decided to use JSF, and so I had a bit more than a month where I continued using JSF, again pretty much every day (some days were more Hibernate/JPA-focused). We used Facelets, and looked at Seam (decided &#8220;No&#8221;). The newer JSF stuff was a bit nicer to use, and Facelets made it feel like I was programming with JSP tags again, so I could do layouts easier. I added some stuff from various popular JavaScript libraries (before AjaxFaces), and it seemed to work pretty well with what we had.
@@ -36,9 +40,6 @@ Where has the work been? We&#8217;ve eliminated EJBs. We&#8217;ve implemented Sp
 
 In conclusion, I stand by my [previous][2] [opinions][3] that I feel that solving business problems is both more interesting and more important. For me, the vast majority of that is done *outside* the UI layer.
 
- [1]: http://timshadel.com/2006/01/19/jsf-the-7-layer-burrito-i-wont-eat-again/
- [2]: http://timshadel.com/2006/01/24/jsf-leaky-abstractions-grab-a-mop/
- [3]: http://timshadel.com/2006/02/03/jsf-renderkit-blues/
  [4]: http://edgibbs.com/category/jsf/
  [5]: http://edgibbs.com/2006/12/03/excessive-setup-anti-pattern/
  [6]: http://timshadel.com/2007/01/17/calm-before-the-storm/

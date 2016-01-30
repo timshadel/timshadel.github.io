@@ -25,9 +25,9 @@ I&#8217;ve been using Balsamiq for the last several months. When I say that, I a
 
 ## Think of it as Test-First UI design.
 
-<!--more-->
-
 Don&#8217;t sit down and start hacking out your rhtml, haml, jsp, or whatever. Mock it up first with Balsamiq. I was amazed at how easy it was to get a decent sketch of our existing website with it, and how quickly my team could recognize what I wanted to do to it with before and after sketches. The conversation about what I wanted went like this, &#8220;Here&#8217;s our current site. Can everyone recognize it? Good. So here&#8217;s what I&#8217;m thinking we should do. [5 min conversation about the idea, backend implications, etc] The conversation stayed entirely focused on the idea I was proposing, and wasn&#8217;t distracted by the sketch mechanics.
+
+ [1]: http://balsamiq.com/
 
 <!-- more -->
 
@@ -36,5 +36,3 @@ Balsamiq enabled the conversation in an interesting way. It was a bit different 
 Try it out and see what kinds of conversations you have with the mockups it generates. It just may surprise you.
 
 *Have any experiences with Balsamiq? Drop a comment down below.*
-
- [1]: http://balsamiq.com/

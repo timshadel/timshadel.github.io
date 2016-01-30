@@ -19,6 +19,8 @@ In his post, [Matthew Levine’s holy grail][1], Jon praises the theory of CSS b
 
 Jon goes on to request a pattern library for CSS layouts, and while I think it&#8217;s a great idea I don&#8217;t think it&#8217;s enough. In my many years of web programming experience few things been more intriguing and challenging as deconstructing a complex web design from someone else and distilling it to the essentials. In the end, we muddle through, leaving unnecessary HTML and CSS constructs littered throughout our new site. Data needs evolve for the site, invoking the corresponding evolutionary change in the HTML and CSS constructs. The ebb and flow of change ultimately builds up enough sediment in our design that, like your old water heater, you simply throw it out and start afresh.
 
+ [1]: http://blog.jonudell.net/2007/01/22/matthew-levines-holy-grail/
+
 <!--more-->
 
 Why is it so complicated? Isn&#8217;t it just colors and a bit of structure? To get good at evolutionary web design takes several things. I believe that first it takes time to understand how web designers approach the process of building a particular template. On top of that it takes a clear understanding of the unbreakable link between HTML structure and CSS &#8212; a coupling so tight and so loose at the same time.
@@ -37,7 +39,6 @@ But one of the challenges is transmitting the kind of tacit knowledge involved i
 
 While CSS has a declarative format, as Jon mentions above, to me it also has the feel of an aspect-oriented language in that a single declaration may cut across a multitude of unrelated elements. One single element may have [multiple CSS classes][5] associated with it.
 
- [1]: http://blog.jonudell.net/2007/01/22/matthew-levines-holy-grail/
  [2]: http://weblog.infoworld.com/udell/2006/09/19.html
  [3]: http://mboffin.com/post.aspx?id=1619 "MBoffin.com - Designline - A Design Timeline"
  [4]: http://timshadel.com/wp-content/uploads/2010/12/designline-openair.gif

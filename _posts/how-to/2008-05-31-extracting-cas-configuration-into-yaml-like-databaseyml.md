@@ -26,6 +26,8 @@ CASClient::Frameworks::Rails::Filter.configure(
 )
 {% endhighlight %}
 
+ [1]: http://www.ja-sig.org/products/cas/
+ [2]: http://rubycas-client.rubyforge.org/
 
 <!--more-->
 
@@ -64,5 +66,3 @@ It&#8217;s worth noting that the colons in front of the YAML keys indicate that 
 
 Got an opinion about using CAS with Rails?  Leave a comment and let us hear it!
 
- [1]: http://www.ja-sig.org/products/cas/
- [2]: http://rubycas-client.rubyforge.org/

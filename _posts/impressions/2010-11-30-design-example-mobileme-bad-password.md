@@ -11,6 +11,9 @@ I love to find examples of small details around the web that impress me in their
 
 When you type in a bad password on [MobileMe][2], it doesn&#8217;t simply show an error dialog, but animates in a bubble that points to the password box and hovers over the existing text. This is a nice departure from error messages that insert themselves into the 2D HTML layout that&#8217;s typical of most websites.
 
+ [1]: http://timshadel.com/wp-content/uploads/2010/11/MobileMe-Forgot-Password1.png
+ [2]: http://me.com
+
 <!--more-->
 
 This provides that modern feel through layering, shadows, and animation that make it feel like the iPhone &#8212; human in its approach to UI interactions with you. All the subtle cues are there, and all the mechanisms to help you adjust to the new layout naturally. I really like it.
@@ -21,8 +24,6 @@ I think I&#8217;ll try to snag an example or two each week for a while and post 
 
 *Got any favorite design examples? Leave a comment and share with everyone!*
 
- [1]: http://timshadel.com/wp-content/uploads/2010/11/MobileMe-Forgot-Password1.png
- [2]: http://me.com
  [3]: http://awesomescreenshot.com/
  [4]: https://extensions.apple.com/
  [5]: https://chrome.google.com/extensions/detail/alelhddbbhepgpmgidjdcjakblofbmce?hl=en

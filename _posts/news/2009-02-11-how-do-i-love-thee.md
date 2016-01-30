@@ -17,6 +17,12 @@ And today I discovered that [my Church][2] started a YouTube channel: [Mormon Me
 <p style="width:100%; text-align: center">
 </p>
 
+ [1]: http://en.wikipedia.org/wiki/Marley_&_Me_(film)
+ [2]: http://lds.org
+ [3]: http://www.youtube.com/user/MormonMessages
+ [4]: http://www.youtube.com/watch?v=eM3mlgLAlMs
+ [5]: http://newsroom.lds.org/ldsnewsroom/eng/background-information/leader-biographies/elder-jeffrey-r-holland
+
 <!--more-->
 
 How true it is. Love takes work. Stephen R. Covey (also a Mormon) recounts in his book, 7 Habits of Highly Effective People, about the time he was approached by a man saying he had fallen out of love with his wife and wondered what to do about it. Covey replied, &#8220;Love her.&#8221; After a few rounds of this, Covey explained that love is a verb.
@@ -29,8 +35,3 @@ Nothing is so hard. In nothing have I felt so truly inadequate, or grown so much
 
 And to my sweet Jennifer: thank you for agreeing 10 years ago to go on this lifelong journey with me. May it truly last forever. How do I love thee? Let me count the ways&#8230;
 
- [1]: http://en.wikipedia.org/wiki/Marley_&_Me_(film)
- [2]: http://lds.org
- [3]: http://www.youtube.com/user/MormonMessages
- [4]: http://www.youtube.com/watch?v=eM3mlgLAlMs
- [5]: http://newsroom.lds.org/ldsnewsroom/eng/background-information/leader-biographies/elder-jeffrey-r-holland

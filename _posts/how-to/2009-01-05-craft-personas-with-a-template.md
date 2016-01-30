@@ -16,6 +16,10 @@ tags:
 
 Last summer I attended [David Hussman][2]&#8216;s Agile Product Planning: Building Strong Backlogs session at the [Agile It! Experience 2008][3] in Reston. One thing that stuck with me was his goofy graphics of personas, and their alliterative names. Among many things, he talked about smells that creep into your planning process and how these usually indicated a loss of focus on the user. Smells like refactoring or engineering stories becoming common place instead of rare, and people talking about a &#8220;thing to do that takes time&#8221; instead of telling stories about how this work will help someone.
 
+ [1]: http://en.wikipedia.org/wiki/Personas
+ [2]: http://www.nofluffjuststuff.com/conference/speaker/david_hussman.html
+ [3]: http://www.agileitx.com/conference/reston/2008/06/index.html
+
 <!--more-->
 
 He went into lots more detail, talking through the anatomy of a story, how to avoid letting the structure become so rote that it&#8217;s not doing its job, making stories testable, and pushing you to question the team if they think stories are hard to tell for a piece of work. The main piece I&#8217;ve latched onto lately, in hopes that it can help drive out some of the smell and impact the others, is his way of writing up personas. I&#8217;ll describe the finished product first and then come back to how they might be constructed. Near the end I&#8217;ve attached the template I made for Apple&#8217;s Pages program in iWork &#8217;08.
@@ -39,9 +43,6 @@ He went into lots more detail, talking through the anatomy of a story, how to av
 [![Persona preview][8]][9]
 [Download iWork Pages Template][9] from GitHub project.
 
- [1]: http://en.wikipedia.org/wiki/Personas
- [2]: http://www.nofluffjuststuff.com/conference/speaker/david_hussman.html
- [3]: http://www.agileitx.com/conference/reston/2008/06/index.html
  [4]: http://www.jnd.org/dn.mss/personas_empath.html "Ad-Hoc Personas & Empathetic Focus by Don Norman"
  [5]: http://search.creativecommons.org/
  [6]: http://www.google.com/search?hl=en&rls=en-us&q=chinese+baby+girl+names

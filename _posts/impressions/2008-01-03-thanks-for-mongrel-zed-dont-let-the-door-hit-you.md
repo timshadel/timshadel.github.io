@@ -18,6 +18,10 @@ I like Mongrel. I&#8217;ve read Zed Shaw&#8217;s <del datetime="2008-01-03T06:13
 
 But as an outsider to whatever caused his Rails rant, he just doesn&#8217;t come off as credible when he makes <del>silly</del> <del>pointless</del> <del>wildly</del> exaggerated claims about his skills and situation and then <del>begs</del> <del>dares</del> <del>challenges</del> asks anyone disagreeing with him (except *Humility*) to start an all out fist fight.
 
+ [1]: http://pragdave.pragprog.com/
+ [2]: http://twitter.com/pragdave/statuses/556351602
+ [3]: http://www.zedshaw.com/projects/ruby_odeum/odeum_lucene_part2.html
+
 <!--more-->
 
 I wouldn&#8217;t hire him. And I don&#8217;t think many people would if he behaves on the job anything like he does on his blog. I&#8217;m sure he thinks that&#8217;s too bad for me. And I&#8217;m glad that we&#8217;re both happy with the result. Consequently, I think we&#8217;re both quite fine with his decision to leave the Ruby/Rails community for good.
@@ -26,6 +30,3 @@ In the end, it just doesn&#8217;t matter. He&#8217;s only sorta known compared t
 
 So Zed, I don&#8217;t hate you. I simply know we&#8217;ll be just fine ignoring you. And please don&#8217;t let the door hit you on the way out.
 
- [1]: http://pragdave.pragprog.com/
- [2]: http://twitter.com/pragdave/statuses/556351602
- [3]: http://www.zedshaw.com/projects/ruby_odeum/odeum_lucene_part2.html

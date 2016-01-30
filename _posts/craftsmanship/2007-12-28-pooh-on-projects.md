@@ -12,6 +12,8 @@ tags:
 ---
 The Bear and Friends have a way to speak truth. Just before heading to the doctor this morning, my wife put on [The Many Adventures of Winnie the Pooh][1] for our son. It&#8217;s been years since I&#8217;ve seen this, and my ear caught something of it while it played in the background. Pooh has eaten too much hunny and is stuck in Rabbit&#8217;s front door. Owl comes by to try and solve the problem. Does any of this sound familiar to you as you&#8217;ve seen other IT folks talk to business people about how to solve their problems:
 
+ [1]: http://amazon.com/o/ASIN/B000OLGCF2
+
 <!--more-->
 
 <table>
@@ -248,4 +250,3 @@ The Bear and Friends have a way to speak truth. Just before heading to the docto
 
 I laughed at how little things some things have changed since the Disney writers took liberties with the Pooh stories and created this funny dialogue.
 
- [1]: http://amazon.com/o/ASIN/B000OLGCF2
