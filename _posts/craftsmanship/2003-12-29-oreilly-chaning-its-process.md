@@ -1,5 +1,5 @@
 ---
-title: 'O&#8217;Reilly chaning its process?'
+title: 'O&#8217;Reilly changing its process?'
 author: Tim
 layout: post
 redirect_from: /2003/12/29/oreilly-chaning-its-process/
