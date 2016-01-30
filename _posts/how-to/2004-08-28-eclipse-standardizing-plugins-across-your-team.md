@@ -2,7 +2,9 @@
 title: '[Eclipse] Standardizing plugins across your team'
 author: Tim
 layout: post
-redirect_from: /2004/08/28/eclipse-standardizing-plugins-across-your-team/
+redirect_from:
+  - /2004/08/28/eclipse-standardizing-plugins-across-your-team/
+  - /blog/2004/08/28/1093715447000.html
 category:  How-To
 tags:
   - eclipse

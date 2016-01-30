@@ -2,7 +2,9 @@
 title: Great Code Reviews using Jupiter
 author: Tim
 layout: post
-redirect_from: /2004/08/16/great-code-reviews-using-jupiter/
+redirect_from:
+  - /2004/08/16/great-code-reviews-using-jupiter/
+  - /blog/2004/08/16/1092701249000.html
 category:  Craftsmanship
 tags:
   - jupiter
