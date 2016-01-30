@@ -24,5 +24,5 @@ While a lot of the value of a presentation is in the verbal exchange that goes o
 **Source Code:** [jboss-rules][3]
 
  [1]: http://phxjug.org/meetings.html
- [2]: http://timshadel.com/code/presentations/jboss-rules/rules.pdf
- [3]: http://timshadel.com/code/presentations/jboss-rules/
+ [2]: https://github.com/timshadel/jboss-rules-presentation-may-2007/raw/master/rules.pdf
+ [3]: https://github.com/timshadel/jboss-rules-presentation-may-2007/
