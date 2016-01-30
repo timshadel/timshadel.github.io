@@ -5,8 +5,10 @@ layout: default
   <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
     <h1 class="title">{{ page.title }}</h1>
     <p class="meta">
-    {{ page.date | date: "%B %-d, %Y" }}
-    {% if page.author %} - {{ page.author }}{% endif %}
+      {{ page.date | date: "%B %-d, %Y" }}
+    </p>
+    <p class="category">
+      {{ page.category }}
     </p>
     {% if page.feature-attrib %}
     <cite>Photo credit: {{page.feature-attrib}}</cite>

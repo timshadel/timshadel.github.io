@@ -22,6 +22,9 @@ layout: default
         <p class="meta">
           {{ post.date | date: "%B %-d, %Y" }}
         </p>
+        <p class="category">
+          {{ post.category }}
+        </p>
       </header>
       <div class="excerpt">
         {{ post.excerpt }}
