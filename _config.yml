@@ -8,6 +8,7 @@ description: A blog and podcast about technology and family.
 
 # PLUGINS
 gems:
+  - jemoji
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-sitemap
