@@ -7,7 +7,7 @@ description: A blog and podcast about technology and family.
 
 
 # PLUGINS
-gems:
+plugins:
   - jemoji
   - jekyll-paginate
   - jekyll-redirect-from
